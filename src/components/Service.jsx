@@ -101,7 +101,7 @@ const Service = () => {
                   <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Conditionar</p>
                   <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Lotion</p>
                 </div>
-                <p className="text-green-700 text-right hover:font-bold mt-70">
+                <p className="text-green-700 text-right hover:font-bold mt-0">
                 <Link href="/service2" prefetch>
   Read More..
 </Link>
@@ -178,7 +178,7 @@ const Service = () => {
                   <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Ear</p>
                   <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Eye </p>
                 </div>
-                <p className="text-green-700 text-right hover:font-bold mt-70">
+                <p className="text-green-700 text-right hover:font-bold mt-80">
                 <Link href="/service4" prefetch>
   Read More..
 </Link>
@@ -216,7 +216,7 @@ const Service = () => {
                   <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Powders</p>
                   <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Candies</p>
                 </div>
-                <p className="text-green-700 text-right hover:font-bold mt-70">
+                <p className="text-green-700 text-right hover:font-bold mt-40">
                 <Link href="/service5" prefetch>
   Read More..
 </Link>
@@ -260,7 +260,7 @@ const Service = () => {
                     Flexible Customization
                   </p>
                 </div>
-                <p className="text-green-700 text-right hover:font-bold mt-70">
+                <p className="text-green-700 text-right hover:font-bold mt-0">
                 <Link href="/service6" prefetch>
   Read More..
 </Link>
