@@ -24,7 +24,7 @@ const AnotherAbout = () => {
               <h2> Ready to Start Your Own Business.</h2>
             </div>
             <p className="mb-35">
-            Choose Sankar Ayush Companies & be your own boss by taking the PCD
+            Choose Sankar Ayush & be your own boss by taking the PCD
             franchise & third party manufacturing from the company.
             </p>
             <ul className="features-list">

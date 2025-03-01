@@ -94,8 +94,9 @@ const ServiceDetails = () => {
               <div className="service-info-wrapper pr-lg-40 wow fadeInDown">
                 <h2 className="title">Paste</h2>
                 <p>
-                Paste-based ayurvedic formulations, such as **Avaleha, Chyawanprash, and therapeutic resins**, are potent immunity boosters that promote overall health, energy, and wellness. These traditional herbal blends are rich in natural ingredients like medicinal herbs, honey, ghee, and minerals, ensuring optimal absorption and effectiveness. **Chyawanprash**, a well-known formulation, strengthens immunity, enhances digestion, and revitalizes the body. **Avaleha** includes various herbal pastes used for respiratory, digestive, and rejuvenating benefits. Therapeutic resins provide healing properties for long-term well-being. These ayurvedic pastes are scientifically backed and trusted for their holistic approach to maintaining vitality, boosting immunity, and improving overall health naturally.
+                Paste-based ayurvedic formulations, such as Avaleha, Chyawanprash, and therapeutic resins, are potent immunity boosters that promote overall health, energy, and wellness. These traditional herbal blends are rich in natural ingredients like medicinal herbs, honey, ghee, and minerals, ensuring optimal absorption and effectiveness. Chyawanprash, a well-known formulation, strengthens immunity, enhances digestion, and revitalizes the body. Avaleha includes various herbal pastes used for respiratory, digestive, and rejuvenating benefits. Therapeutic resins provide healing properties for long-term well-being. These ayurvedic pastes are scientifically backed and trusted for their holistic approach to maintaining vitality, boosting immunity, and improving overall health naturally.
                 </p>
+                <p className="bg-[#7EA63F] text-white p-2 rounded-xl px-4">Note: We offer customized solutions tailored to specific requirements</p>
                 <div className="block-image wow fadeInDown">
                   <img
                     src="assets/images/home-service/sv-3.jpg"

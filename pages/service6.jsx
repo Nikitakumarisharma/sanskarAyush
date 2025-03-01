@@ -96,6 +96,7 @@ const ServiceDetails = () => {
                 <p>
                 Juices/Ras are herbal and medicated health beverages formulated with natural ingredients to promote overall wellness. These Ayurvedic drinks, including Adrakh (Ginger), Amla, Aloe Vera, Karela, Triphala, Neem, Giloy, and Jamun, offer numerous health benefits such as boosting immunity, aiding digestion, detoxifying the body, and improving skin and hair health. Rich in essential nutrients, antioxidants, and medicinal properties, they support holistic well-being. With flexible customization, these juices can be tailored to specific health needs, ensuring purity and effectiveness. Prepared using traditional Ayurvedic methods, they provide a natural way to maintain health, energy, and vitality in daily life.
                 </p>
+                <p className="bg-[#7EA63F] text-white p-2 rounded-xl px-4">Note: We offer customized solutions tailored to specific requirements</p>
                 <div className="block-image wow fadeInDown">
                   <img
                     src="assets/images/home-service/sv-6.jpg"

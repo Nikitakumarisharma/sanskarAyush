@@ -96,6 +96,7 @@ const ServiceDetails = () => {
                 <p>
                 Drops are specialized liquid formulations designed for targeted relief, ensuring quick absorption and effectiveness. Ayurvedic and pharmaceutical drops cater to various needs, including herbal, nasal, ear, and eye drops. Herbal drops provide natural healing benefits, boosting immunity and overall wellness. Nasal drops help relieve congestion, sinus issues, and allergies by clearing nasal passages. Ear drops treat infections, reduce inflammation, and improve ear hygiene. Eye drops soothe irritation, hydrate dry eyes, and enhance vision care. These formulations are crafted with precision, ensuring safe and effective relief while maintaining high-quality standards for improved health and well-being.
                 </p>
+                <p className="bg-[#7EA63F] text-white p-2 rounded-xl px-4">Note: We offer customized solutions tailored to specific requirements</p>
                 <div className="block-image wow fadeInDown">
                   <img
                     src="assets/images/home-service/sv-4.jpg"

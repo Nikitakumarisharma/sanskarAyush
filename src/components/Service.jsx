@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Service = () => {
   return (
-    <section className="features-section mt-85">
+    <section className="features-section mt-85 font-poppins">
       <div className="container">
         <div className="row align-items-xl-center">
           <div className="">
@@ -141,7 +141,7 @@ const Service = () => {
                     Therapeutic resins.
                   </p>
                 </div>
-                <p className="text-green-700 text-right hover:font-bold mt-70">
+                <p className="text-green-700 text-right hover:font-bold mt-40">
                 <Link href="/service3" prefetch>
   Read More..
 </Link>

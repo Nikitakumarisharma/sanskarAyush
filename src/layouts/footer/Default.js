@@ -38,7 +38,7 @@ const Default = () => {
                 <div className="widget-content">
                   
                   <ul className="info-list">
-                    <li>Khasra No. 673, Imlikhera,      Bhagwanpur by pass NH, Rookee, 247667,   Haridwar,   Uttarakhand, India </li>
+                    <li>Khasra No. 673, Imlikhera,      Bhagwanpur by pass NH, Roorkee, 247667,   Haridwar,   Uttarakhand, India </li>
                     <li>
     <a href="mailto:bd@sanskarayush.in">bd@sanskarayush.in</a>
 </li>
@@ -55,17 +55,18 @@ const Default = () => {
                 <h4 className="widget-title">Quick Link</h4>
                 <div className="widget-content">
                   <ul className="footer-nav">
-                    <li>
-                      <a href="#">About</a>
+                  <li>
+                      <a href="/">Home</a>
                     </li>
                     <li>
-                      <a href="#"> Services</a>
+                      <a href="/aboutUs">About</a>
                     </li>
                     <li>
-                      <a href="#">Blog</a>
+                      <a href="/service-details"> Services</a>
                     </li>
+                   
                     <li>
-                      <a href="#">Our Gallery</a>
+                      <a href="gallery">Our Gallery</a>
                     </li>
                   </ul>
                 </div>

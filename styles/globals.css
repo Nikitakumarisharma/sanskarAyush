@@ -1,4 +1,12 @@
 /* @import "slick-carousel/slick/slick.css"; */
+:root {
+  font-family: var(--font-poppins), sans-serif;
+}
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+
 @import "tailwindcss";
 .c-pointer {
   cursor: pointer;
