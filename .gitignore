@@ -1,0 +1,6 @@
+node_modules
+# Next.js build folder
+.next/
+# Ignore Next.js build folder
+.next/
+node_modules/

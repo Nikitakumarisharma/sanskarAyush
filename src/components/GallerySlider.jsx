@@ -1,0 +1,198 @@
+import React from 'react'
+import { GrGallery } from "react-icons/gr";
+import { sliderProps } from "@/src/sliderProps";
+import Slider from "react-slick";
+
+
+const GallerySlider = () => {
+  return (
+    <section className="gallery-section mt-5">
+      <div className="section-title mb-55 wow fadeInLeft">
+                <span className="sub-title" style={{display: "flex", 
+    alignItems: "center", 
+    justifyContent: "center", 
+}}>
+                <span>
+                    </span>
+                    <GrGallery />
+
+                  Explore Our Gallery.
+                </span>
+              </div>
+        <div className="container-fluid">
+          {/*====== Gallery Slider ======*/}
+          <Slider
+            {...sliderProps.projectsSliderTwo}
+            className="projects-slider-two wow fadeInDown"
+          >
+            {/*====== Project Item ======*/}
+            
+            <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl-1.png" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn" style={{height:"20px",width:"30px"}}>
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className=" text-white text-center">
+                    <p>Gallery Preview</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*====== Project Item ======*/}
+            <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl-2.png" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn" style={{height:"20px",width:"30px"}}>
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className=" text-white text-center">
+
+                    <p>Gallery Preview</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            {/*====== Project Item ======*/}
+            <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl-3.png" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn" style={{height:"20px",width:"30px"}}>
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className=" text-white text-center">
+
+                    <p>Gallery Preview</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*====== Project Item ======*/}
+
+            <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl-4.png" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn" style={{height:"20px",width:"30px"}}>
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className=" text-white text-center">
+     
+                    <p>Gallery Preview</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*====== Project Item ======*/}
+
+            <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl-5.png" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn" style={{height:"20px",width:"30px"}}>
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className=" text-white text-center">
+             
+                    <p>Gallery Preview</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             {/*====== Project Item ======*/}
+
+             <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl-6.png" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn" style={{height:"20px",width:"30px"}}>
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className=" text-white text-center">
+                   
+                    <p>Gallery Preview</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             {/*====== Project Item ======*/}
+
+             <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl-14.png" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn" style={{height:"20px",width:"30px"}}>
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className=" text-white text-center">
+                    
+                    <p>Gallery Preview</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             {/*====== Project Item ======*/}
+
+             <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl-8.png" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn" style={{height:"20px",width:"30px"}}>
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className=" text-white text-center">
+                    
+                    <p>Gallery Preview</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             {/*====== Project Item ======*/}
+
+             <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl-9.png" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn" style={{height:"20px",width:"30px"}}>
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className=" text-white text-center">
+                    
+                    <p>Gallery Preview</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             {/*====== Project Item ======*/}
+
+             <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl-10.png" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn" style={{height:"20px",width:"30px"}}>
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className=" text-white text-center">
+                    
+                    <p>Gallery Preview</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </Slider>
+        </div>
+      </section>
+  )
+}
+
+export default GallerySlider
