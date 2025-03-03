@@ -23,10 +23,8 @@ const Default = () => {
                   <p>
                   Providing high-quality, customized solutions for businesses worldwide.
                   </p>
-                  <Link legacyBehavior href="/contact">
-                    <a className="main-btn filled-btn filled-white">
-                      Contact Us
-                    </a>
+                  <Link legacyBehavior href="https://wa.me/9193078685">
+                    <a className="main-btn golden-btn mb-10 mr-3">Contact Us</a>
                   </Link>
                 </div>
               </div>
@@ -43,7 +41,7 @@ const Default = () => {
     <a href="mailto:bd@sanskarayush.in">bd@sanskarayush.in</a>
 </li>
                     <li>
-                      <a href="tel:+000(123)45688">+91 9193078685</a>
+                      <a href="tel:+919193078685">+91 9193078685</a>
                     </li>
                   </ul>
                 </div>

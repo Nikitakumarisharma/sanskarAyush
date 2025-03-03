@@ -19,6 +19,7 @@ const images = [
   "assets/images/clients/partner12.png",
   "assets/images/clients/partner13.png",
   "assets/images/clients/partner14.png",
+  "assets/images/clients/partner15.png",
 
   
 ];

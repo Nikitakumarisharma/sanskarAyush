@@ -29,7 +29,7 @@ const Carausal = () => {
                   <span className="text-green-900">Sanskar Ayush Medicare</span>
                 </h1>
                 <p
-                  className="wow fadeInDown text-white mt-4 lg:text-2xl"
+                  className="wow fadeInDown text-green-900 mt-4 lg:text-2xl"
                   data-wow-delay="6s"
                 >
                   Looking for Ayurvedic Products in your own brand Name
@@ -38,7 +38,7 @@ const Carausal = () => {
                   className="hero-button mb-30 wow fadeInUp mt-4 "
                   data-wow-delay="6s"
                 >
-                  <Link legacyBehavior href="https://wa.me/1234567890">
+                  <Link legacyBehavior href="https://wa.me/9193078685">
                     <a className="main-btn golden-btn mb-10 mr-3">Contact Us</a>
                   </Link>
                 </div>
