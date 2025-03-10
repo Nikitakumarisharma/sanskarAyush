@@ -1,4 +1,11 @@
 import React from 'react'
+import { TbTruckDelivery } from "react-icons/tb";
+import { FaArrowUpShortWide } from "react-icons/fa6";
+import { FaCoins } from "react-icons/fa";
+import { BsBuildingFillGear } from "react-icons/bs";
+
+
+
 
 const WhyChooseUs = () => {
   return (
@@ -7,10 +14,10 @@ const WhyChooseUs = () => {
       <div className="row justify-content-center">
         <div className="col-xl-9 col-lg-12">
           <div className="section-title text-center mb-60 wow fadeInDown">
-            <h2>
+            <h3>
            
               Why Choose Us
-            </h2>
+            </h3>
             
           </div>
         </div>
@@ -23,12 +30,11 @@ const WhyChooseUs = () => {
             <div className="single-process-item">
               <div className="inner-process-item">
                 <div className="icon">
-                <img
-                src="assets/images/icon/ch-us-1.png"
-                alt="Image"
-                className="p-3"
-                
-              />
+                  <i>
+
+                <FaArrowUpShortWide />
+                  </i>
+
                 </div>
                 <div className="text">
                   <h4 className="title">High-Quality Standards</h4>
@@ -46,12 +52,8 @@ const WhyChooseUs = () => {
               <div className="inner-process-item">
                
                 <div className="icon">
-                <img
-                src="assets/images/icon/ch-us-2.png"
-                alt="Image"
-                className="p-3"
-                
-              />
+                <i><TbTruckDelivery />
+                </i>
                 </div>
                 <div className="text">
                   <h4 className="title">Timely Delivery Service</h4>
@@ -69,12 +71,8 @@ const WhyChooseUs = () => {
               <div className="inner-process-item">
                 
                 <div className="icon">
-                <img
-                src="assets/images/icon/ch-us-3.png"
-                alt="Image"
-                className="p-3"
-                
-              />
+                <i><BsBuildingFillGear />
+                </i>
                 </div>
                 <div className="text">
                   <h4 className="title">Customizable Manufacturing</h4>
@@ -92,12 +90,10 @@ const WhyChooseUs = () => {
               <div className="inner-process-item">
                 
                 <div className="icon">
-                <img
-                src="assets/images/icon/ch-us-4.png"
-                alt="Image"
-                className="p-3"
-                
-              />
+                <i>
+                <FaCoins />
+
+                </i>
                 </div>
                 <div className="text">
                   <h4 className="title">

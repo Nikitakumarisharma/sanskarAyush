@@ -4,9 +4,6 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
   const [toggle, setToggle] = useState(false);
 
   const [activeMenu, setActiveMenu] = useState(null);
-  const active = (value) => setActiveMenu(value === activeMenu ? null : value),
-    activeSubMenu = (value) =>
-      value == activeMenu ? { display: "block" } : { display: "none" };
 
   return (
     <Fragment>
@@ -73,6 +70,12 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                   <li className="menu-item">
                     <Link legacyBehavior href="gallery">
                     Gallary
+                    </Link>
+                  </li>
+
+                  <li className="menu-item">
+                    <Link legacyBehavior href="/nabl_lab">
+                    LABL Lab
                     </Link>
                   </li>
 

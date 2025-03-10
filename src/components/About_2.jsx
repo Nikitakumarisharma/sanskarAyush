@@ -21,7 +21,7 @@ const AnotherAbout = () => {
           {/*====== Features Content Box ======*/}
           <div className="features-content-box mb-50 wow fadeInRight">
             <div className="section-title mb-20">
-              <h2> Ready to Start Your Own Business.</h2>
+              <h3> Ready to Start Your Own Business.</h3>
             </div>
             <p className="mb-35">
             Choose Sankar Ayush & be your own boss by taking the PCD

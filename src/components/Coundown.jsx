@@ -3,36 +3,16 @@ import Counter from "./Counter";
 
 const Coundown = () => {
   return (
-    <section className="features-section-two p-r z-1">
-        {/*=== Features Wrapper ===*/}
-        <div className="features-wrapper-two main-bg wow fadeInDown">
-          <div className="shape shape-one">
-            <span>
-              <img src="assets/images/shape/leaf-5.png" alt="Leaf" />
-            </span>
-          </div>
-          <div className="shape shape-two">
-            <span>
-              <img src="assets/images/shape/leaf-5.png" alt="Leaf" />
-            </span>
-          </div>
-          <div className="shape shape-three">
-            <span>
-              <img src="assets/images/shape/leaf-5.png" alt="Leaf" />
-            </span>
-          </div>
+    <section className="main-bg wow fadeInDown">
 
           {/*=== Counter Area ===*/}
-          <div className="">
-            <div className="row ">
+            <div className="row py-5 ">
 
-              <div className="col-lg-6 col-sm-6">
+              <div className="col-lg-5 col-sm-6">
                 {/*=== Counter Item ===*/}
-                <div className="single-counter-item-two mb-30 wow fadeInUp">
+                <div className="single-counter-item-two wow fadeInUp">
                   <div className="inner-counter">
-                    <div className="icon">
-                      
-                    </div>
+                    
                     <h2 className="number">
                       <Counter end={99} />%
                     </h2>
@@ -40,13 +20,11 @@ const Coundown = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-sm-6">
-                {/*=== Counter Item ===*/}
-                <div className="single-counter-item-two mb-30 wow fadeInDown">
+              <div className="col-lg-6 col-sm-6">
+                
+                <div className="single-counter-item-two  wow fadeInDown">
                   <div className="inner-counter">
-                    <div className="icon">
-                      
-                    </div>
+                    
                     <h2 className="number">
                       <Counter end={200} />+
                     </h2>
@@ -55,9 +33,7 @@ const Coundown = () => {
                 </div>
               </div>
 
-            </div>
           </div>
-        </div>
       </section>
   )
 }

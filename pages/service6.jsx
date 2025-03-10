@@ -72,7 +72,7 @@ const ServiceDetails = () => {
                 </div>
                 <div className="sidebar-widget widget-banner mb-30 wow fadeInUp">
                   <div className="banner-content text-white">
-                    <h3 className="title">Looking For best Third Party manufacture
+                    <h3 className="title">Looking For best Third Party manufacturer
 </h3>
                     <p>You’re in right place</p>
                     <Link legacyBehavior href="/contact">

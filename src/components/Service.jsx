@@ -1,34 +1,23 @@
 import React from "react";
+import { FaBottleDroplet } from "react-icons/fa6";
+import { TbBowlSpoonFilled } from "react-icons/tb";
+import { FaEyeDropper,FaCapsules  } from "react-icons/fa";
+import { GiFruitBowl } from "react-icons/gi";
+import { MdFace3 } from "react-icons/md";
+
 import { ImTree } from "react-icons/im";
 import Link from "next/link";
-
 
 const Service = () => {
   return (
     <section className="features-section mt-85 font-poppins">
       <div className="container">
-        <div className="row align-items-xl-center">
-          <div className="">
-            <div className="section-title mb-55 wow fadeInLeft">
-              <span
-                className="sub-title"
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                }}
-              >
-                <span className="gap-2">
-                  <ImTree />
-                </span>
-                Services We Provide
-              </span>
-              <h2>
-                Get Ayurvedic third party manufecturing with your Brand Name
-              </h2>
-            </div>
-          </div>
+      
+        <div className="text-center mb-5 ">
+          <h3><span><ImTree /> </span>&nbsp; Services We Provide</h3>
+          <p className="text-[#7EA63F] text-2xl">Get Ayurvedic third party manufecturing with your Brand Name</p>
         </div>
+        
         <div className="row">
           <div className="col-xl-4 col-md-6 col-sm-12">
             <div
@@ -44,27 +33,35 @@ const Service = () => {
               </div>
               <div className="text">
                 <div className="icon">
-                  <img
-                    src="assets/images/icon/icon-5.png"
-                    alt="Image"
-                    className="p-2"
-                  />
+                  <i>
+                    <FaBottleDroplet />
+                  </i>
                 </div>
+
                 <h5 className="title">Liquid Orals</h5>
                 <p>Liquid formulations for faster absorption.</p>
 
                 <div className="row gap-3 pl-3">
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Syrups</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Suspensions</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Drops</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Medicated </p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Candies</p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Syrups
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Suspensions
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Drops
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Medicated{" "}
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Candies
+                  </p>
                 </div>
                 <p className="text-green-700 text-right hover:font-bold mt-70">
-                <Link href="/service-details" prefetch>
-  Read More..
-</Link>
-                  
+                  <Link href="/service-details" prefetch>
+                    Read More..
+                  </Link>
                 </p>
               </div>
             </div>
@@ -83,29 +80,44 @@ const Service = () => {
               </div>
               <div className="text">
                 <div className="icon">
-                  <img
-                    src="assets/images/icon/icon-6.png"
-                    alt="Image"
-                    className="p-2"
-                  />
+                <i>
+                <MdFace3 />
+
+                  </i>
+
                 </div>
                 <h5 className="title">Cosmetic Topicals </h5>
                 <p>External applications for skincare and hygiene.</p>
                 <div className="row gap-3 pl-3">
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Creams</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Ointments</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Gels</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Balm</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Paste</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Shampoo</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Conditionar</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Lotion</p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Creams
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Ointments
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Gels
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Balm
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Paste
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Shampoo
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Conditionar
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Lotion
+                  </p>
                 </div>
                 <p className="text-green-700 text-right hover:font-bold mt-0">
-                <Link href="/service2" prefetch>
-  Read More..
-</Link>
-                  
+                  <Link href="/service2" prefetch>
+                    Read More..
+                  </Link>
                 </p>
               </div>
             </div>
@@ -124,28 +136,30 @@ const Service = () => {
               </div>
               <div className="text">
                 <div className="icon">
-                  <img
-                    src="assets/images/icon/icon-7.png"
-                    alt="Image"
-                    className="p-2"
-                  />
+                <i>
+                <TbBowlSpoonFilled />
+
+                  </i>
                 </div>
                 <h5 className="title">Paste</h5>
                 <p>
                   Ayurvedic immunity booster for health, energy, and wellness.
                 </p>
                 <div className="row gap-3 pl-3">
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Avaleha</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Chyawanprash</p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Avaleha
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Chyawanprash
+                  </p>
                   <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
                     Therapeutic resins.
                   </p>
                 </div>
                 <p className="text-green-700 text-right hover:font-bold mt-40">
-                <Link href="/service3" prefetch>
-  Read More..
-</Link>
-                  
+                  <Link href="/service3" prefetch>
+                    Read More..
+                  </Link>
                 </p>
               </div>
             </div>
@@ -164,25 +178,31 @@ const Service = () => {
               </div>
               <div className="text">
                 <div className="icon">
-                  <img
-                    src="assets/images/icon/icon-8.png"
-                    alt="Image"
-                    className="p-2"
-                  />
+                <i>
+                <FaEyeDropper />
+
+                  </i>
                 </div>
                 <h5 className="title">Drops</h5>
                 <p>Specialized drops for targeted relief.</p>
                 <div className="row gap-3 pl-3">
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Herbal</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Nasal</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Ear</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Eye </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Herbal
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Nasal
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Ear
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Eye{" "}
+                  </p>
                 </div>
                 <p className="text-green-700 text-right hover:font-bold mt-80">
-                <Link href="/service4" prefetch>
-  Read More..
-</Link>
-                  
+                  <Link href="/service4" prefetch>
+                    Read More..
+                  </Link>
                 </p>
               </div>
             </div>
@@ -201,26 +221,35 @@ const Service = () => {
               </div>
               <div className="text">
                 <div className=" icon ">
-                  <img
-                    src="assets/images/icon/icon-4.png"
-                    alt="Image"
-                    className="p-2"
-                  />
+                <i>
+                <FaCapsules />
+
+
+                  </i>
                 </div>
                 <h5 className="title">Solid Orals</h5>
                 <p>Effective oral formulations for daily health.</p>
                 <div className="row gap-3 pl-3">
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Tablets</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Capsules</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Granules</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Powders</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Candies</p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Tablets
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Capsules
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Granules
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Powders
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Candies
+                  </p>
                 </div>
                 <p className="text-green-700 text-right hover:font-bold mt-40">
-                <Link href="/service5" prefetch>
-  Read More..
-</Link>
-                  
+                  <Link href="/service5" prefetch>
+                    Read More..
+                  </Link>
                 </p>
               </div>
             </div>
@@ -239,32 +268,46 @@ const Service = () => {
               </div>
               <div className="text">
                 <div className="icon">
-                  <img
-                    src="assets/images/icon/icon-9.png"
-                    alt="Image"
-                    className="p-2"
-                  />
+                <i>
+                <GiFruitBowl />
+
+                  </i>
                 </div>
                 <h5 className="title">Juices/Ras</h5>
                 <p>Herbal and medicated health beverages.</p>
                 <div className="row gap-3 pl-3">
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Adrakh</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Amla</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Aloevera</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Karela</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Triphala</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Neem</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Giloy</p>
-                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">Jamun</p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Adrakh
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Amla
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Aloevera
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Karela
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Triphala
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Neem
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Giloy
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Jamun
+                  </p>
                   <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
                     Flexible Customization
                   </p>
                 </div>
                 <p className="text-green-700 text-right hover:font-bold mt-0">
-                <Link href="/service6" prefetch>
-  Read More..
-</Link>
-                  
+                  <Link href="/service6" prefetch>
+                    Read More..
+                  </Link>
                 </p>
               </div>
             </div>

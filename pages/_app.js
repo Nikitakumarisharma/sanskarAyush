@@ -1,4 +1,6 @@
+// import "@fortawesome/fontawesome-free/css/all.min.css";
 import Preloader from "@/src/layouts/Preloader";
+
 import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 import "/styles/globals.css";

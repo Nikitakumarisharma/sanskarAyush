@@ -24,6 +24,11 @@ const Menu = () => {
             Gallary
           </Link>
         </li>
+        <li className="menu-item has-children style">
+          <Link  href="/nabl_lab">
+            NABL Lab
+          </Link>
+        </li>
 
       </ul>
     </nav>

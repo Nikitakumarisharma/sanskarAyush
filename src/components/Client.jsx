@@ -49,19 +49,11 @@ const sliderSettings = {
     },
   ],
 };
+
 const Client = () => {
   return (
     <section className="container text-center py-24 mx-auto">
-    <div className="section-title mb-20">
-                <span className="sub-title">
-                <span className=" h-5 w-6">
-                <IoIosPeople />
-                  </span>
-                  Our Business Partners
-                </span>
-                <h2>Explore Our Network of Trusted Business Partners</h2>
-              </div>
-    <hr className="my-4 mx-auto w-3/4" />
+   
 
     <Slider {...sliderSettings} className="customer-logos slider">
       {images.map((src, index) => (

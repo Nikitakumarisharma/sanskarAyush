@@ -12,11 +12,9 @@ const GallerySlider = () => {
     alignItems: "center", 
     justifyContent: "center", 
 }}>
-                <span>
-                    </span>
-                    <GrGallery />
+                    <GrGallery />&nbsp;
 
-                  Explore Our Gallery.
+                  Explore Our Gallery
                 </span>
               </div>
         <div className="container-fluid">
