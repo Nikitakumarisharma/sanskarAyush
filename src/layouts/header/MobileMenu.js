@@ -75,7 +75,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
 
                   <li className="menu-item">
                     <Link legacyBehavior href="/nabl_lab">
-                    LABL Lab
+                    NABL Lab
                     </Link>
                   </li>
 
