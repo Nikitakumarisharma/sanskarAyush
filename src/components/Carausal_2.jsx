@@ -25,14 +25,14 @@ const CarausalTwo = () => {
         <Slider {...settings} className="w-full h-full">
           <div>
             <img
-              src="assets/images/bg/carausal-1.jpg"
+              src="assets/images/bg/carausal-1.png"
               alt="Slide 1"
               className="w-full h-screen object-cover"
             />
           </div>
           <div>
             <img
-              src="assets/images/bg/carausal-2.jpg"
+              src="assets/images/bg/carausal-2.png"
               alt="Slide 2"
               className="w-full h-screen object-cover"
             />
