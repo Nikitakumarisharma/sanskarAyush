@@ -13,7 +13,7 @@ const AnotherAbout = () => {
             <img
               src="assets/images/features/home-1.png"
               alt="Features Image"
-              className="h-2xl"
+              style={{height:"480px"}}
             />
           </div>
         </div>
@@ -24,8 +24,8 @@ const AnotherAbout = () => {
               <h3> Ready to Start Your Own Business.</h3>
             </div>
             <p className="mb-35">
-            Choose Sankar Ayush & be your own boss by taking the PCD
-            franchise & third party manufacturing from the company.
+            Choose Sanskar Ayush & be your own boss by taking the PCD
+            franchise & third-party manufacturing from the company.
             </p>
             <ul className="features-list">
               <li>
@@ -42,7 +42,7 @@ const AnotherAbout = () => {
               </li>
             </ul>
             <Link legacyBehavior href="/about">
-              <a className="main-btn primary-btn">Learn More Us</a>
+              <a className="main-btn primary-btn">Learn More About Us</a>
             </Link>
           </div>
         </div>

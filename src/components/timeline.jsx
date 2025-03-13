@@ -108,7 +108,7 @@ const Timeline = () => {
             <h3>2022</h3>Cosmetics manufacturing started
           </h4>
           <ul>
-            <li>2. Lab received NABl certification</li>
+            <li>2. Lab received NABL certification</li>
           </ul>
         </VerticalTimelineElement>
 

@@ -21,7 +21,7 @@ const ProductDetails = () => {
                   </h4>
                   
                   <p>
-                  SANSKAR AYUSH MEDICARE PVT. LTD. was established in 2017 and was approved in 2020 for the testing of Ayurvedic, Unani, and Siddha Drugs by the Directorate of Ayurvedic & Unani Services Dehradun (UK) under the Department of AYUSH, Ministry of Health and Family Welfare, Government of India. Additionally, renovation and upgradation of the laboratory to meet current regulatory requirements were completed in 2020.
+                  SANSKAR AYUSH MEDICARE PVT. LTD. was established in 2017 and was approved in 2020 for the testing of Ayurvedic, Unani, and Siddha Drugs by the Directorate of Ayurvedic & Unani services Dehradun (UK) under the Department of AYUSH, Ministry of Health and Family Welfare, Government of India. Additionally, renovation and upgradation of the laboratory to meet current regulatory requirements were completed in 2020.
                   </p>
                   
                   {/* <ul className="product-meta pb-35 mb-40">
@@ -54,10 +54,10 @@ const ProductDetails = () => {
                       >
                         <div className="content-box">
                           <p>
-                          Approved Lab for the testing of Ayurvedic, Unani & Veterinary Drugs by the Directorate of Ayurvedic & Unani Services Dehradun (UK) under the Department of AYUSH; Ministry of Health and Family Welfare, Government of India vide Approval No. UK.AY.DTL- 02/2010, Dated: 14/07/2010.
+                          Approved Lab for the testing of Ayurvedic, Unani & Veterinary Drugs by the Directorate of Ayurvedic & Unani services Dehradun (UK) under the Department of AYUSH; Ministry of Health and Family Welfare, Government of India vide Approval No. UK.AY.DTL- 02/2010, Dated: 14/07/2010.
                           </p>
                           <p>
-                          Approved for the testing of Drugs & Pharmaceuticals, Homeopathic Drugs and Cosmetics Products by Drug Controller & Licensing Authority, Directorate of Health Services Dehradun (Uttarakhand) vide Approval No. 1/UA/CTL*/2021, dated: 02/09/2021.
+                          Approved for the testing of Drugs & Pharmaceuticals, Homeopathic Drugs and Cosmetics Products by Drug Controller & Licensing Authority, Directorate of Health services Dehradun (Uttarakhand) vide Approval No. 1/UA/CTL*/2021, dated: 02/09/2021.
                           </p>
                           <p>
                           ISO 9001:2008 Certified
@@ -66,7 +66,7 @@ const ProductDetails = () => {
                           <ul className="check-style-one">
                             <li>
                               <i className="far fa-check" />
-                              GLP Comliant Lab
+                              GLP Compliant Lab
                             </li>
                             <li>
                               <i className="far fa-check" />
@@ -74,7 +74,7 @@ const ProductDetails = () => {
                             </li>
                             <li>
                               <i className="far fa-check" />
-                              Supporting to 50 plus
+                              Supporting 50+ Products
                             </li>
                           </ul>
                         </div>
@@ -134,7 +134,7 @@ One of the most Competitive Testing Laboratory designed in 4500 SF Area accordin
 
                   </p>
                   <p>
-                  Chemical, Instrumental and Microbiological Laboratories are well separated to avoid cross Contaminations.
+                  Chemical, Instrumental and Microbiological Laboratories are well separated to avoid cross-Contaminations.
 
                   </p>
                   
@@ -335,7 +335,7 @@ Detecting techniques UV/VIS, PDA, RI and Fluorescence available.
                   <Tab.Container defaultActiveKey={"descrptions"}>
                     <div className="description-tabs mb-30 wow fadeInUp">
                     <h3 className="title ">
-                    Fourier Transform-Infra Red Spectroscopy (FT-IR)
+                    Fourier Transform Infrared Spectroscopy (FT-IR)
                   </h3>
                     </div>
                     <Tab.Content className="tab-content wow fadeInUp">
@@ -398,12 +398,12 @@ Detecting techniques UV/VIS, PDA, RI and Fluorescence available.
                 <div className="product-info mb-50 pl-lg-70 wow fadeInRight">
                   <h4 className="title">
                   STABILITY STUDIES:
-Shelf life Studies
+Shelf-Life Studies
 (Accelerated and Real Time)
                   </h4>
                   
                   <p>
-                  Incubation and Testing as per preset protocol and Pharmacopoeia requirements. Stability Studies as per ICH guidelines. Data compilation for Dossier submission. Online storage of data.
+                  Incubation and testing as per preset protocols and pharmacopoeia requirements. Stability Studies as per ICH guidelines. Data compilation for Dossier submission. Online storage of data.
                   </p>
                  
                 </div>
@@ -565,7 +565,7 @@ Testing of Food Products for Protein, Carbo-hydrates, Fat, Vitamins, and Mineral
                             </li>
                             <li>
                               <i className="far fa-check" />
-                              Physico-chemical Analysis.
+                              Physicochemical Analysis.
                               </li>
                           </ul>
                         </div>
@@ -684,7 +684,7 @@ Testing of Food Products for Protein, Carbo-hydrates, Fat, Vitamins, and Mineral
                             </li>
                             <li>
                               <i className="far fa-check" />
-                              Hands on Atomic Absorption Spectroscopy and Training in Microbiology Laboratory.
+                              Hands on Atomic Absorption Spectroscopy and Training in the Microbiology Laboratory
 
                               </li>
                             <li>

@@ -64,12 +64,12 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
 
                   <li className="menu-item">
                     <Link legacyBehavior href="/service-details">
-                    Service
+                    Services
                     </Link>
                   </li>
                   <li className="menu-item">
                     <Link legacyBehavior href="gallery">
-                    Gallary
+                    Gallery
                     </Link>
                   </li>
 

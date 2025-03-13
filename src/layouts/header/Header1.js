@@ -31,22 +31,17 @@ const Header1 = () => {
                 <div className="top-right float-lg-right">
                   <ul className="social-link">
                     <li>
-                      <a href="https://www.facebook.com/public/Sankar-Ayush/">
+                      <a href="https://www.facebook.com/sanskarayushmedicare">
                         <i className="fab fa-facebook-f" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
+                      <a href="https://youtu.be/MgpZ8hY2Oao?si=KdGLdaNMgy2Xccss">
                         <i className="fab fa-youtube" />
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.linkedin.com/company/sanskar-ayush-medicare-pvt-ltd/?originalSubdomain=in">
+                      <a href="https://www.linkedin.com/company/sanskar-ayush-medicare-pvt-ltd">
                       <FaLinkedin />
                       </a>
                     </li>

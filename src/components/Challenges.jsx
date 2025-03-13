@@ -34,7 +34,7 @@ const faqs = [
   {
     question: "✅ Customization",
     challenges: "Meeting specific client requirements and customizations. ",
-    solution: "Develop flexible manufacturing processes and maintain a versatile production line capable of handling various product specifications",
+    solution: "Develop flexible Manufacturing Processes and maintain a versatile production line capable of handling various product specifications",
   },
   {
     question: "✅ Supply Chain Disruptions",
@@ -44,7 +44,7 @@ const faqs = [
   {
     question: "✅ Sustainability",
     challenges: "Implementing sustainable and eco-friendly manufacturing practices. ",
-    solution: "Invest in green technologies, reduce waste, and adopt sustainable practices throughout the manufacturing process.",
+    solution: "Invest in green technologies, reduce waste, and adopt sustainable practices throughout the Manufacturing Process.",
   },
   {
     question: "✅ Intellectual Property Protection",

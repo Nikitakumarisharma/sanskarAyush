@@ -8,14 +8,14 @@ import { MdFace3 } from "react-icons/md";
 import { ImTree } from "react-icons/im";
 import Link from "next/link";
 
-const Service = () => {
+const service = () => {
   return (
     <section className="features-section mt-85 font-poppins">
       <div className="container">
       
         <div className="text-center mb-5 ">
-          <h3><span><ImTree /> </span>&nbsp; Services We Provide</h3>
-          <p className="text-[#7EA63F] text-2xl">Get Ayurvedic third party manufecturing with your Brand Name</p>
+          <h3><span><ImTree /> </span>&nbsp; services We Provide</h3>
+          <p className="text-[#7EA63F] text-2xl">Get Ayurvedic third-party manufacturing with your Brand Name</p>
         </div>
         
         <div className="row">
@@ -108,7 +108,7 @@ const Service = () => {
                     Shampoo
                   </p>
                   <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
-                    Conditionar
+                    Conditioner
                   </p>
                   <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
                     Lotion
@@ -277,13 +277,13 @@ const Service = () => {
                 <p>Herbal and medicated health beverages.</p>
                 <div className="row gap-3 pl-3">
                   <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
-                    Adrakh
+                    Adrak
                   </p>
                   <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
                     Amla
                   </p>
                   <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
-                    Aloevera
+                    Aloe Vera
                   </p>
                   <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
                     Karela
@@ -318,4 +318,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default service;

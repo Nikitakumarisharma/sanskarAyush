@@ -72,7 +72,7 @@ const ProjectGridIsotope = () => {
                 onClick={handleFilterKeyChange("cat-4")}
                 className={activeBtn("cat-4")}
               >
-                Manufecturing
+                manufacturing
               </li>
               
             </ul>

@@ -16,12 +16,12 @@ const Menu = () => {
         </li>
 
         <li className="menu-item has-children style">
-          <Link href="/service-details">service</Link>
+          <Link href="/service-details">Services</Link>
         </li>
 
         <li className="menu-item has-children style">
           <Link  href="gallery">
-            Gallary
+            Gallery
           </Link>
         </li>
         <li className="menu-item has-children style">

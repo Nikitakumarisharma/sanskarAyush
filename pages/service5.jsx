@@ -5,11 +5,11 @@ import { TbTruckDelivery } from "react-icons/tb";
 
 
 import Link from "next/link";
-const ServiceDetails = () => {
+const serviceDetails = () => {
   return ( 
     <Layout>
-      {/* <PageBanner pageName={"Service Details"} /> */}
-      {/*====== Start Service Details section ======*/}
+      {/* <PageBanner pageName={"service Details"} /> */}
+      {/*====== Start service Details section ======*/}
       <section className="service-details-section pt-100">
         <div className="container">
           <div className="row">
@@ -72,7 +72,7 @@ const ServiceDetails = () => {
                 </div>
                 <div className="sidebar-widget widget-banner mb-30 wow fadeInUp">
                   <div className="banner-content text-white">
-                    <h3 className="title">Looking For best Third Party manufacturer
+                    <h3 className="title">Looking for the best third-party manufacturer
 </h3>
                     <p>You’re in right place</p>
                     <Link legacyBehavior href="/contact">
@@ -90,7 +90,7 @@ const ServiceDetails = () => {
             </div>
 
             <div className="col-xl-8 col-lg-7">
-              {/*====== Service Details Wrapper ======*/}
+              {/*====== service Details Wrapper ======*/}
               <div className="service-info-wrapper pr-lg-40 wow fadeInDown">
                 <h2 className="title">Solid orals</h2>
                 <p>
@@ -100,18 +100,18 @@ const ServiceDetails = () => {
                 <div className="block-image wow fadeInDown">
                   <img
                     src="assets/images/home-service/sv-5.jpg"
-                    alt="Service Image"
+                    alt="service Image"
                     className="h-96"
                   />
                 </div>
-                <h3>Benefit of Solid orals</h3>
+                <h3>Benefits of Solid Orals</h3>
                 <p>
                 Solid orals offer precise dosing, easy consumption, long shelf life, and effective absorption. They support daily health, boost immunity, enhance energy, and provide convenient solutions for nutritional and medicinal needs.
                 </p>
                 <ul className="check-style-one mb-60">
                   <li>
                     <i className="far fa-check" />
-                    14+ year of  Experience
+                    14+Year of  Experience
                   </li>
                   <li>
                     <i className="far fa-check" />
@@ -128,14 +128,14 @@ const ServiceDetails = () => {
                 </ul>
 
 
-                <h3>Manufecturing Process</h3>
+                <h3>Manufacturing Process</h3>
                 <div className="row">
 
                   <div className="col-md-6">
                     <div className="block-image wow fadeInLeft">
                       <img
                         src="assets/images/home-service/solid-sv-1.png"
-                        alt="Service Image"
+                        alt="service Image"
                         className="h-48"
                       />
                     </div>
@@ -144,13 +144,13 @@ const ServiceDetails = () => {
                     <div className="block-image wow fadeInRight">
                       <img
                         src="assets/images/home-service/solid-sv-2.png"
-                        alt="Service Image"
+                        alt="service Image"
                       />
                     </div>
                   </div>
                 </div>
                 <p>
-                The manufacturing process of Ayurvedic solid orals involves selecting natural ingredients, mixing, granulation, drying, compression or encapsulation, coating (if needed), quality testing, and packaging, ensuring purity, effectiveness, and holistic wellness.
+                The Manufacturing Process of Ayurvedic solid orals involves selecting natural ingredients, mixing, granulation, drying, compression or encapsulation, coating (if needed), quality testing, and packaging, ensuring purity, effectiveness, and holistic wellness.
                 </p>
                 <div className="process-wrapper p-r z-1 wow fadeInUp">
                   <div className="shape line-shape">
@@ -169,7 +169,7 @@ const ServiceDetails = () => {
 
                         </div>
                         <div className="text">
-                          <h6>Manufecturing Products</h6>
+                          <h6>Manufactured Products</h6>
                         </div>
                       </div>
                     </div>
@@ -198,7 +198,7 @@ const ServiceDetails = () => {
                   </div>
                 </div>
                 
-                <h3>Additionally we offer testing</h3>
+                <h3>Additionally, we offer testing for:</h3>
                 <ul>
                   <li> ● Expertise in Ayurvedic Category
                   </li>
@@ -212,12 +212,12 @@ const ServiceDetails = () => {
                   </li>
                   <li> ● Intermediates
                   </li>
-                  <li> ● FG (Finished Goods) Testing Services
+                  <li> ● FG (Finished Goods) Testing services
                   </li>
                 </ul>
                 <br />
                 <p>
-                Beyond ayurvedic and pharmaceutical services, we also specialize in food and nutraceuticals, offering nutritional profiling, vitamins and minerals analysis, and cosmetics testing in our NABL-certified lab for superior quality and accuracy.
+                Beyond Ayurvedic and pharmaceutical services, we also specialize in food and nutraceuticals, offering nutritional profiling, vitamins and minerals analysis, and cosmetics testing in our NABL-certified lab for superior quality and accuracy.
                 </p>
               </div>
               
@@ -226,9 +226,9 @@ const ServiceDetails = () => {
           </div>
         </div>
       </section>
-      {/*====== End Service Details section ======*/}
+      {/*====== End service Details section ======*/}
       
     </Layout>
   );
 };
-export default ServiceDetails;
+export default serviceDetails;

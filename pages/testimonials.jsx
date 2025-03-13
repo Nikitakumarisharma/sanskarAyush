@@ -37,7 +37,7 @@ const Testimonials = () => {
                     />
                   </div>
                   <div className="ratings-box">
-                    <h6>Quality Services</h6>
+                    <h6>Quality services</h6>
                     <ul className="ratings">
                       <li>
                         <i className="fas fa-star" />
@@ -87,7 +87,7 @@ const Testimonials = () => {
                     />
                   </div>
                   <div className="ratings-box">
-                    <h6>Quality Services</h6>
+                    <h6>Quality services</h6>
                     <ul className="ratings">
                       <li>
                         <i className="fas fa-star" />
@@ -137,7 +137,7 @@ const Testimonials = () => {
                     />
                   </div>
                   <div className="ratings-box">
-                    <h6>Quality Services</h6>
+                    <h6>Quality services</h6>
                     <ul className="ratings">
                       <li>
                         <i className="fas fa-star" />
@@ -187,7 +187,7 @@ const Testimonials = () => {
                     />
                   </div>
                   <div className="ratings-box">
-                    <h6>Quality Services</h6>
+                    <h6>Quality services</h6>
                     <ul className="ratings">
                       <li>
                         <i className="fas fa-star" />
@@ -251,7 +251,7 @@ const Testimonials = () => {
                       <i className="flaticon-plant" />
                       Testimonials
                     </span>
-                    <h2>What’s Our Clients Say About Our Services</h2>
+                    <h2>What’s Our Clients Say About Our services</h2>
                   </div>
                   <div className="client-avatar-box-two">
                     <h6>Meet Our Global Clients</h6>
@@ -302,7 +302,7 @@ const Testimonials = () => {
                     </div>
                     <ul className="ratings">
                       <li>
-                        <span>Quality Services</span>
+                        <span>Quality services</span>
                       </li>
                       <li>
                         <i className="fas fa-star" />
@@ -341,7 +341,7 @@ const Testimonials = () => {
                         />
                       </div>
                       <div className="ratings-box">
-                        <h3>Quality Services</h3>
+                        <h3>Quality services</h3>
                         <ul className="ratings">
                           <li>
                             <i className="fas fa-star" />
@@ -390,7 +390,7 @@ const Testimonials = () => {
                         />
                       </div>
                       <div className="ratings-box">
-                        <h3>Quality Services</h3>
+                        <h3>Quality services</h3>
                         <ul className="ratings">
                           <li>
                             <i className="fas fa-star" />
@@ -439,7 +439,7 @@ const Testimonials = () => {
                         />
                       </div>
                       <div className="ratings-box">
-                        <h3>Quality Services</h3>
+                        <h3>Quality services</h3>
                         <ul className="ratings">
                           <li>
                             <i className="fas fa-star" />

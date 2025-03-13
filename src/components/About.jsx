@@ -17,19 +17,15 @@ const About = () => {
                 </div>
                 <img
                   src="assets/images/gallery-sankar/gl-5.png"
-                  className="about-img-one h-52 w-60"
+                  className="about-img-one h-52 w-56"
                   alt="About Image"
                 />
                 <img
-                  src="assets/images/gallery-sankar/gl-1.png"
-                  className="about-img-two h-96 w-96"
+                  src="assets/images/about/2.png"
+                  className="about-img-two" style={{height:"390px",width:"500px"}}
                   alt="About Image"
                 />
-                <img
-                  src="assets/images/about/ayurveda.png"
-                  className="about-img-three"
-                  alt="About Image"
-                />
+                
                 <div className="experience-item">
                   <h2 className="number">
                     <Counter end={14} />+

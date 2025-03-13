@@ -56,7 +56,7 @@ const WhyChooseUs = () => {
                 </i>
                 </div>
                 <div className="text">
-                  <h4 className="title">Timely Delivery Service</h4>
+                  <h4 className="title">Timely Delivery Services</h4>
                   <p>Reliable and efficient processes guarantee on-time delivery of your products.
 
 </p>

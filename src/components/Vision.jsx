@@ -17,7 +17,7 @@ const VisionMission = () => {
               <h3 className="text-2xl font-semibold text-gray-800 ml-2">Our Mission</h3>
             </div>
             <p className="text-gray-700 text-lg leading-relaxed">
-            At Sanskar Ayush Medicare Pvt. Ltd., our mission is to harness Ayurveda’s wisdom to create exceptional healthcare and personal care products. We are dedicated to upholding excellence by maintaining the highest standards of quality and purity. Our focus is on customer satisfaction, reliable service, and sustainable manufacturing. Through strong partnerships and continuous innovation, we customize formulations to meet client needs. By adhering to these principles, we aim to be a trusted leader in the Ayurvedic healthcare industry, enhancing global well-being.
+            At Sanskar Ayush Medicare Pvt. Ltd., our mission is to harness Ayurveda’s wisdom to create exceptional healthcare and personal care products. We are dedicated to upholding excellence by maintaining the highest standards of quality and purity. Our focus is on customer satisfaction, reliable services, and sustainable manufacturing. Through strong partnerships and continuous innovation, we customize formulations to meet client needs. By adhering to these principles, we aim to be a trusted leader in the Ayurvedic healthcare industry, enhancing global well-being.
             </p>
           </div>
 
