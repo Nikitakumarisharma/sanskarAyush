@@ -6,7 +6,7 @@ const ProductDetails = () => {
   return (
     <Layout>
       {/*====== Start Shop Details Section ======*/}
-      <section className="shop-details-section p-5 ">
+      <section className="shop-details-section  py-5">
         <div className="container">
           <div className="product-details-wrapper">
             <div className="row align-items-xl-center">
@@ -109,7 +109,7 @@ const ProductDetails = () => {
         
       </section>
 
-      <section className="shop-details-section p-5 bg-[#b7db7e]">
+      <section className="shop-details-section  bg-[#b7db7e] py-5">
         <div className="container">
           <div className="product-details-wrapper">
             <div className="row align-items-xl-center">
@@ -211,7 +211,7 @@ Training and Development for Researchers, Students and Industrial employees.
         
       </section>
 
-      <section className="shop-details-section p-5 bg-[#b7db7e]">
+      <section className="shop-details-section  bg-[#b7db7e] ">
         <div className="container">
           <div className="product-details-wrapper">
             
@@ -383,10 +383,7 @@ Detecting techniques UV/VIS, PDA, RI and Fluorescence available.
         
       </section>
       
-
-
-
-      <section className="shop-details-section p-5">
+      <section className="shop-details-section py-5">
         <div className="container">
           <div className="product-details-wrapper">
             <div className="row align-items-xl-center">
@@ -493,7 +490,7 @@ different zones.
         
       </section>
 
-      <section className="shop-details-section p-5 ">
+      <section className="shop-details-section  py-5">
         <div className="container">
           <div className="product-details-wrapper">
             <div className="row align-items-xl-center">
