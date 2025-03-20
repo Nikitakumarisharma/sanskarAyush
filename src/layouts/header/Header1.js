@@ -17,7 +17,7 @@ const Header1 = () => {
   return (
     <Fragment>
 
-      <header className="header-area header-one">
+      <header className="header-area header-two">
         <div className="container-fluid">
           {/*====== Header Top Bar ======*/}
           <div className="header-top-bar text-white main-bg d-none d-xl-block">
