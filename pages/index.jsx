@@ -1,15 +1,13 @@
 import React from "react";
 
 import Carausal from "@/src/components/carausal"
-import Timeline from "@/src/components/timeline"
 import CownDown from "@/src/components/Coundown"
 import About from "@/src/components/About"
-import service from "@/src/components/Service";
+import Service from "@/src/components/Service";
 import GallerySlider from "@/src/components/GallerySlider";
 import WhyChooseUs from "@/src/components/WhyChooseUs";
 import AnotherAbout from "@/src/components/About_2";
 import Client from "@/src/components/Client";
-
 import Layout from "@/src/layouts/Layout";
 
 
@@ -22,10 +20,9 @@ const Index = () => {
   return (
     <Layout header={1} footer={1}>
     <Carausal /> 
-    {/* <Timeline /> */}
     <CownDown />
     <About />
-    <service />
+    <Service />
     <GallerySlider />
     <WhyChooseUs />
     <AnotherAbout />

@@ -53,7 +53,12 @@ const sliderSettings = {
 const Client = () => {
   return (
     <section className="container text-center py-24 mx-auto">
-   
+   <div className="section-title mb-20">
+              <h3> Our Divisions </h3>
+            </div>
+            <p className="mb-35">
+            They are our third-party client, utilizing our services for support.
+            </p>
 
     <Slider {...sliderSettings} className="customer-logos slider">
       {images.map((src, index) => (
