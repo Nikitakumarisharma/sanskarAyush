@@ -23,7 +23,7 @@ const Default = () => {
                   <p>
                   Providing high-quality, customized solutions for businesses worldwide.
                   </p>
-                  <Link legacyBehavior href="https://wa.me/9193078685">
+                  <Link legacyBehavior href="https://wa.me/9084715401">
                     <a className="main-btn golden-btn mb-10 mr-3">Contact Us</a>
                   </Link>
                 </div>
@@ -38,10 +38,10 @@ const Default = () => {
                   <ul className="info-list">
                     <li>Khasra No. 673, Imlikhera,      Bhagwanpur by pass NH, Roorkee, 247667,   Haridwar,   Uttarakhand, India </li>
                     <li>
-    <a href="mailto:bd@sanskarayush.in">bd@sanskarayush.in</a>
+    <a href="mailto:rajat.prakash@sanskarayush.in">rajat.prakash@sanskarayush.in</a>
 </li>
                     <li>
-                      <a href="tel:+919193078685">+91 9193078685</a>
+                      <a href="tel:+919084715401">+91 9084715401</a>
                     </li>
                   </ul>
                 </div>

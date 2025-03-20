@@ -19,6 +19,7 @@ const Index = () => {
   // #7EA63F green
   return (
     <Layout header={1} footer={1}>
+      
     <Carausal /> 
     <CownDown />
     <About />

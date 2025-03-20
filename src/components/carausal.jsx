@@ -38,7 +38,7 @@ const Carausal = () => {
                   className="hero-button mb-30 wow fadeInUp mt-4 "
                   data-wow-delay="6s"
                 >
-                  <Link legacyBehavior href="https://wa.me/9193078685">
+                  <Link legacyBehavior href="https://wa.me/9084715401">
                     <a className="main-btn golden-btn mb-10 mr-3">Contact Us</a>
                   </Link>
                 </div>
