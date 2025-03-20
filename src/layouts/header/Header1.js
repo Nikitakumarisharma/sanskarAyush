@@ -25,19 +25,19 @@ const Header1 = () => {
               <div className="col-lg-6">
                 {/*====== Top Left ======*/}
                 <div className="top-left">
-                <div className="top-left flex items-center justify-cente py-2 px-4 whitespace-nowrap">
-  <div className="flex items-center space-x-2">
-    <FaPhoneAlt />
-    <span>9084715401</span>
+                <div className="top-left flex items-center justify-cente  px-4 whitespace-nowrap">
+  <div className="flex items-center space-x-">
+    <FaPhoneAlt /> &nbsp;
+    <span> 9084715401</span>
   </div>
   <span className="mx-3">|</span>
   <div className="flex items-center space-x-2">
-    <MdOutlineMarkEmailUnread />
+    <MdOutlineMarkEmailUnread />&nbsp;
     <span>rajat.prakash@sanskarayush.in</span>
   </div>
   <span className="mx-3">|</span>
   <div className="flex items-center space-x-2">
-    <FaLocationDot />
+    <FaLocationDot />&nbsp;
     <span>Imlikhera, Bhagwanpur Bypass, NH Roorkee, Haridwar Uttarakhand India-247667</span>
   </div>
 </div>
@@ -117,11 +117,7 @@ const Header1 = () => {
                 {/*====== main Menu ======*/}
                 <Menu />
                 {/*====== Menu Button ======*/}
-                <div className="menu-button mt-40 d-xl-none">
-                  <Link legacyBehavior href="/contact">
-                    <a className="main-btn secondary-btn">Get a Quote</a>
-                  </Link>
-                </div>
+               
               </div>
               {/*====== Nav Right Item ======*/}
               <div className="nav-right-item">
