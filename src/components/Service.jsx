@@ -14,7 +14,7 @@ const service = () => {
       <div className="container">
       
         <div className="text-center mb-5 ">
-          <h3><span><ImTree /> </span>&nbsp; services We Provide</h3>
+          <h3> Services We Provide</h3>
           <p className="text-[#7EA63F] text-2xl">Get Ayurvedic third-party manufacturing with your Brand Name</p>
         </div>
         

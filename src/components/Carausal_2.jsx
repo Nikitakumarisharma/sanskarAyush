@@ -45,9 +45,9 @@ const CarausalTwo = () => {
 
       {/* === Hero Content === */}
       <div className="relative z-10 flex flex-col justify-center items-center h-full text-center text-white">
-        <h5 className="font-bold text-shadow-lg">
+        <h2 className="font-bold text-shadow-lg">
           Welcome to <span className="text-green-400">Sanskar Ayush Medicare</span>
-        </h5>
+        </h2>
         <p className="mt-4 text-lg md:text-2xl">
           Looking for Ayurvedic Products in your own brand Name
         </p>

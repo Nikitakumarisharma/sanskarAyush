@@ -33,7 +33,7 @@ const Timeline = () => {
          Our Journey
           </span>
         </span>
-        <h2 className="text-center">Get Started with passion, grew through innovation and perseverance.</h2>
+        <h3 className="text-center">Get Started with passion, grew through innovation and perseverance.</h3>
       </div>
 
       <VerticalTimeline>

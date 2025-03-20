@@ -67,7 +67,7 @@ const faqs = [
 
   return (
     <div className="max-w-7xl mx-auto px-4  py-5">
-      <h2 className="text-3xl font-bold text-gray-800 mb-4 text-center"> Challenges and Their Solutions</h2>
+      <h3 className="text-3xl font-bold text-gray-800 mb-4 text-center"> Challenges and Their Solutions</h3>
       <div className="grid md:grid-cols-2 gap-8 items-center">
         {/* Left Side - Image */}
         <div className="flex justify-center">
