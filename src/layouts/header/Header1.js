@@ -1,23 +1,21 @@
 import Link from "next/link";
 import { Fragment, useState } from "react";
-import { FaLinkedin } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdOutlineMarkEmailUnread } from "react-icons/md";
+import { FaLinkedin } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
-
-
-
+import Sidebar from "../Sidebar";
 import Menu from "./Menu";
 import MobileMenu from "./MobileMenu";
 const Header1 = () => {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-
+  const [searchModal, setSearchModal] = useState(false);
   return (
     <Fragment>
-
-      <header className="header-area header-one">
+      
+      <header className="header-area header-one " >
         <div className="container-fluid">
           {/*====== Header Top Bar ======*/}
           <div className="header-top-bar text-white main-bg d-none d-xl-block">
@@ -41,7 +39,6 @@ const Header1 = () => {
     <span>Imlikhera, Bhagwanpur By pass NH Roorkee, Haridwar Uttarakhand India-247667</span>
   </div>
 </div>
-
                 </div>
               </div>
               <div className="col-lg-6">
@@ -70,7 +67,7 @@ const Header1 = () => {
           </div>
         </div>
         {/*====== Header Navigation ======*/}
-        <div className="header-navigation d-xl-block ">
+        <div className="header-navigation d-xl-block d-none">
           <div className="nav-overlay" />
           <div className="container-fluid">
             <div className="primary-menu">
@@ -81,7 +78,7 @@ const Header1 = () => {
                     <img
                       src="assets/images/logo/logo-black.png"
                       alt="Site Logo"
-                      style={{height:"80px", width:"300px"}}
+                      style={{height:"80px",width:"400px"}}
                     />
                   </a>
                 </Link>
@@ -93,9 +90,8 @@ const Header1 = () => {
                   <Link legacyBehavior href="/">
                     <a className="brand-logo">
                       <img
-                        src="assets/images/logo/logo.png"
+                        src="assets/images/logo/logo-black.png"
                         alt="Site Logo"
-                        style={{height:"10px",width:"10px"}}
                       />
                     </a>
                   </Link>
@@ -111,22 +107,31 @@ const Header1 = () => {
                         name="email"
                         required
                       />
+                      <button
+                        className="search-btn"
+                        onClick={() => setSearchModal(true)}
+                      >
+                        <i className="fas fa-search" />
+                      </button>
                     </div>
                   </form>
                 </div>
                 {/*====== main Menu ======*/}
                 <Menu />
                 {/*====== Menu Button ======*/}
-               
+                {/* <div className="menu-button mt-40 d-xl-none">
+                  <Link legacyBehavior href="/contact">
+                    <a className="main-btn secondary-btn">Get a Quote</a>
+                  </Link>
+                </div> */}
               </div>
               {/*====== Nav Right Item ======*/}
               <div className="nav-right-item">
-                <div className="menu-button d-xl-block d-none">
+              <div className="menu-button d-xl-block d-none">
                   <Link legacyBehavior href="/contact">
                     <a className="main-btn primary-btn">Contact Us</a>
                   </Link>
                 </div>
-               
                 <div className="navbar-toggler">
                   <span />
                   <span />
@@ -138,6 +143,7 @@ const Header1 = () => {
         </div>
         <MobileMenu handleShow={handleShow} />
       </header>
+      <Sidebar show={show} handleClose={handleClose} />
     </Fragment>
   );
 };
