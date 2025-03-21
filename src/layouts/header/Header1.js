@@ -25,20 +25,20 @@ const Header1 = () => {
               <div className="col-lg-6">
                 {/*====== Top Left ======*/}
                 <div className="top-left">
-                <div className="top-left flex items-center justify-cente  px-4 whitespace-nowrap">
-  <div className="flex items-center space-x-">
+                <div className="top-left flex items-center justify-cente  whitespace-nowrap"style={{fontSize:"14px"}}>
+  <div className="flex items-center ">
     <FaPhoneAlt /> &nbsp;
     <span> 9084715401</span>
   </div>
-  <span className="mx-3">|</span>
-  <div className="flex items-center space-x-2">
+  <span className="mx-2">|</span>
+  <div className="flex items-center ">
     <MdOutlineMarkEmailUnread />&nbsp;
     <span>rajat.prakash@sanskarayush.in</span>
   </div>
-  <span className="mx-3">|</span>
-  <div className="flex items-center space-x-2">
+  <span className="mx-2">|</span>
+  <div className="flex items-center ">
     <FaLocationDot />&nbsp;
-    <span>Imlikhera, Bhagwanpur Bypass, NH Roorkee, Haridwar Uttarakhand India-247667</span>
+    <span>Imlikhera, Bhagwanpur By pass NH Roorkee, Haridwar Uttarakhand India-247667</span>
   </div>
 </div>
 
@@ -70,7 +70,7 @@ const Header1 = () => {
           </div>
         </div>
         {/*====== Header Navigation ======*/}
-        <div className="header-navigation d-xl-block d-none">
+        <div className="header-navigation d-xl-block ">
           <div className="nav-overlay" />
           <div className="container-fluid">
             <div className="primary-menu">

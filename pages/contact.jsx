@@ -22,7 +22,7 @@ const Contact = () => {
                   </div>
                   <div className="info">
                     <span className="title">Location</span>
-                    <h6>Imlikhera, Bhagwanpur Bypass, NH Roorkee, Haridwar Uttarakhand India-247667</h6>
+                    <h6>Imlikhera, Bhagwanpur By pass NH Roorkee, Haridwar Uttarakhand India-247667</h6>
                   </div>
                 </div>
               </div>
