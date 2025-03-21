@@ -10,7 +10,7 @@ const Contact = () => {
 
       {/*====== Start Contact Info section ======*/}
       <section className="contact-info-section pt-40">
-        <h2 className="text-center text-[#7EA63F] pb-3">Contact Us</h2>
+        <h3 className="text-center text-[#7EA63F] pb-3">Contact Us</h3>
         <div className="container">
           <div className="contact-info-wrapper wow fadeInUp">
             <div className="row no-gutters justify-content-center">
