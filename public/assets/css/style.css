@@ -1195,10 +1195,10 @@ button {
 .header-one .header-navigation {
   border-bottom: 1px solid rgba(18, 74, 47, 0.1);
 }
-/* .header-one .header-navigation .site-branding {
+.header-one .header-navigation .site-branding {
   padding: 9px 100px 0px 0;
   border-right: 1px solid rgba(18, 74, 47, 0.1);
-} */
+}
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .header-one .header-navigation .site-branding {
     padding: 20px 20px 20px 0;

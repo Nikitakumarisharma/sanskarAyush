@@ -4,6 +4,7 @@ import Preloader from "@/src/layouts/Preloader";
 import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 import "/styles/globals.css";
+
 const App = ({ Component, pageProps }) => {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
@@ -75,7 +76,7 @@ const App = ({ Component, pageProps }) => {
         {/*====== Default css ======*/}
         <link rel="stylesheet" href="assets/css/default.css" />
         {/*====== Style css ======*/}
-        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="/assets/css/style.css" />
       </Head>
       {loading && <Preloader />}
       {!loading && <Component {...pageProps} />}
