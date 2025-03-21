@@ -76,7 +76,7 @@ const App = ({ Component, pageProps }) => {
         {/*====== Default css ======*/}
         <link rel="stylesheet" href="assets/css/default.css" />
         {/*====== Style css ======*/}
-        <link rel="stylesheet" href="/assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
       </Head>
       {loading && <Preloader />}
       {!loading && <Component {...pageProps} />}
