@@ -23,7 +23,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                   <img
                     src={logo ? logo : "assets/images/logo/logo-black.png"}
                     alt="Site Logo"
-                   style={{height:"50px",width:"200px"}}
+                    style={{ height: "50px", width: "200px" }}
                   />
                 </a>
               </Link>
@@ -43,18 +43,15 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
               </div>
               {/*=== Nav Search ===*/}
               <div className="nav-search mb-30 d-block d-xl-none ">
-                <form onSubmit={(e) => e.preventDefault()}>
-
-                </form>
+                <form onSubmit={(e) => e.preventDefault()}></form>
               </div>
               {/*====== main Menu ======*/}
               <nav className="main-menu">
                 <ul>
                   <li className="menu-item">
-                    <a  legacyBehavior href="/">
-                      Home  
+                    <a legacyBehavior href="/">
+                      Home
                     </a>
-
                   </li>
                   <li className="menu-item">
                     <Link legacyBehavior href="/aboutUs">
@@ -64,21 +61,27 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
 
                   <li className="menu-item">
                     <Link legacyBehavior href="/service-details">
-                    Services
+                      Services
                     </Link>
+                  </li>
+                  {/* <li className="menu-item ">
+                    <Link href="/products">Products</Link>
+                  </li> */}
+                  <li className="menu-item ">
+                    <Link href="/ourDivision">Our Division</Link>
                   </li>
                   <li className="menu-item">
                     <Link legacyBehavior href="gallery">
-                    Gallery
+                      Gallery
                     </Link>
                   </li>
 
                   <li className="menu-item">
                     <Link legacyBehavior href="/nabl_lab">
-                    NABL Lab
+                      NABL Lab
                     </Link>
                   </li>
-
+                  
                 </ul>
               </nav>
               {/*====== Menu Button ======*/}

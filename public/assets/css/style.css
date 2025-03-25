@@ -230,6 +230,43 @@ body {
   overflow-x: hidden;
 }
 
+/* product css start */
+
+.productcontainer {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* For mobile screens (less than 1024px width), set padding to 0 */
+@media (max-width: 1024px) {
+  .productcontainer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* product css end */
+
+/* our division start */
+.client-card {
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.client-card:hover {
+  transform: scale(1.05);
+  border-radius: 10px;
+}
+
+.client-logo {
+  transition: transform 0.3s ease-in-out;
+}
+
+.client-card:hover .client-logo {
+  transform: rotate(2deg);
+}
+/* our division end here */
+
 /*====== Extra CSS ======*/
 .container-fluid {
   padding-left: 70px;

@@ -14,82 +14,7 @@ const serviceDetails = () => {
         <div className="container">
           <div className="row">
 
-          <div className="col-xl-4 col-lg-5">
-              {/*====== Sidebar Widget Area ======*/}
-              <div className="sidebar-widget-area">
-              <div className="sidebar-widget widget-service-nav gray-bg mb-30 wow fadeInUp">
-                  <h4 className="widget-title">Services List</h4>
-                  <ul>
-                    <li>
-                      <Link legacyBehavior href="/service-details">
-                        <a>
-                        Liquid Orals
-                          <i className="far fa-angle-double-right" />
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href="/service2">
-                        <a>
-                        Cosmetic Topicals
-                          <i className="far fa-angle-double-right" />
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href="/service3">
-                        <a>
-                        Paste
-                          <i className="far fa-angle-double-right" />
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href="/service4">
-                        <a>
-                        Drops
-                          <i className="far fa-angle-double-right" />
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href="/service5">
-                        <a>
-                        Solid Orals
-                          <i className="far fa-angle-double-right" />
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href="/service6">
-                        <a>
-                        Juices/Ras
-                          <i className="far fa-angle-double-right" />
-                        </a>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-                <div className="sidebar-widget widget-banner mb-30 wow fadeInUp">
-                  <div className="banner-content text-white">
-                    <h3 className="title">Looking for the best third-party manufacturer
-</h3>
-                    <p>You’re in right place</p>
-                    <Link legacyBehavior href="/contact">
-                      <a className="main-btn secondary-btn opacity-75"style={{background:"darkgreen"}}>Contact Us</a>
-                    </Link>
-                    <img
-                      src="assets/images/home-service/service.png"
-                      alt="Banner Image"
-                      className="w-96"
-                    />
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-            <div className="col-xl-8 col-lg-7">
+          <div className="col-xl-8 col-lg-7">
               {/*====== service Details Wrapper ======*/}
               <div className="service-info-wrapper pr-lg-40 wow fadeInDown">
                 <h2 className="title">Drops</h2>
@@ -222,6 +147,82 @@ const serviceDetails = () => {
               </div>
               
             </div>
+          <div className="col-xl-4 col-lg-5">
+              {/*====== Sidebar Widget Area ======*/}
+              <div className="sidebar-widget-area">
+              <div className="sidebar-widget widget-service-nav gray-bg mb-30 wow fadeInUp">
+                  <h4 className="widget-title">Services List</h4>
+                  <ul>
+                    <li>
+                      <Link legacyBehavior href="/service-details">
+                        <a>
+                        Liquid Orals
+                          <i className="far fa-angle-double-right" />
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service2">
+                        <a>
+                        Cosmetic Topicals
+                          <i className="far fa-angle-double-right" />
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service3">
+                        <a>
+                        Paste
+                          <i className="far fa-angle-double-right" />
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service4">
+                        <a>
+                        Drops
+                          <i className="far fa-angle-double-right" />
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service5">
+                        <a>
+                        Solid Orals
+                          <i className="far fa-angle-double-right" />
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service6">
+                        <a>
+                        Juices/Ras
+                          <i className="far fa-angle-double-right" />
+                        </a>
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+                <div className="sidebar-widget widget-banner mb-30 wow fadeInUp">
+                  <div className="banner-content text-white">
+                    <h3 className="title">Looking for the best third-party manufacturer
+</h3>
+                    <p>You’re in right place</p>
+                    <Link legacyBehavior href="/contact">
+                      <a className="main-btn secondary-btn opacity-75"style={{background:"darkgreen"}}>Contact Us</a>
+                    </Link>
+                    <img
+                      src="assets/images/home-service/service.png"
+                      alt="Banner Image"
+                      className="w-96"
+                    />
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            
             
           </div>
         </div>
