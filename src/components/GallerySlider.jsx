@@ -27,7 +27,7 @@ const GallerySlider = () => {
             
             <div className="single-project-item-two">
               <div className="project-img">
-                <img src="assets/images/gallery-sankar/gl-1.png" alt="Gallery Image" />
+                <img src="assets/images/gallery-sankar/gl27.png" alt="Gallery Image" />
                 
               </div>
             </div>
@@ -103,7 +103,31 @@ const GallerySlider = () => {
 
              <div className="single-project-item-two">
               <div className="project-img">
-                <img src="assets/images/gallery-sankar/gl-10.png" alt="Gallery Image" />
+                <img src="assets/images/gallery-sankar/gl22.png" alt="Gallery Image" />
+                
+              </div>
+            </div>
+             <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl26.png" alt="Gallery Image" />
+                
+              </div>
+            </div>
+             <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl23.png" alt="Gallery Image" />
+                
+              </div>
+            </div>
+             <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl24.png" alt="Gallery Image" />
+                
+              </div>
+            </div>
+             <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl25.png" alt="Gallery Image" />
                 
               </div>
             </div>

@@ -11,9 +11,6 @@ import Client from "@/src/components/Client";
 import Layout from "@/src/layouts/Layout";
 
 
-
-
-
 const Index = () => {
   // #f7931e orange
   // #7EA63F green
@@ -23,12 +20,11 @@ const Index = () => {
     <Carausal /> 
     <CownDown />
     <About />
+    <Client />
     <Service />
     <GallerySlider />
     <WhyChooseUs />
     <AnotherAbout />
-    <Client />
-
     </Layout>
   );
 };
