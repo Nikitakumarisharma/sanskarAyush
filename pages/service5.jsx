@@ -21,7 +21,24 @@ const serviceDetails = () => {
                 <p>
                 Solid orals are effective and convenient formulations designed for daily health and wellness. These include tablets, capsules, granules, powders, and candies, each offering unique benefits. Tablets provide precise dosing and long shelf life, making them ideal for various health needs. Capsules contain herbal or pharmaceutical ingredients in a protective shell for better absorption. Granules dissolve easily, ensuring quick action and ease of consumption. Powders offer a versatile way to intake nutrients and medicinal compounds. Medicated candies make supplementation enjoyable, especially for children. These formulations ensure easy administration, accurate dosing, and improved effectiveness for overall well-being and vitality.
                 </p>
-                <p className="bg-[#7EA63F] text-white p-2 rounded-xl px-4">Note: We offer customized solutions tailored to specific requirements</p>
+                <div className="row gap-3 px-3">
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Tablets
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Capsules
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Granules
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Powders
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Candies
+                  </p>
+                <p className="bg-[#7EA63F] text-white p-2 rounded-xl mb-4">Note: We offer customized solutions tailored to specific requirements</p>
+                </div>
                 <div className="block-image wow fadeInDown">
                   <img
                     src="assets/images/home-service/sv-5.jpg"

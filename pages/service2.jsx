@@ -21,7 +21,33 @@ const serviceDetails = () => {
                 <p>
                 Cosmetic topicals are external applications designed for skincare and hygiene, offering various formulations to suit different needs. Creams, ointments, gels, balms, and pastes provide hydration, protection, and treatment for skin concerns. Shampoos and conditioners nourish hair, while lotions keep skin moisturized. These products enhance beauty, comfort, and overall well-being.
                 </p>
-                <p className="bg-[#7EA63F] text-white p-2 rounded-xl px-4">Note: We offer customized solutions tailored to specific requirements</p>
+                <div className="row gap-3 px-3">
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Creams
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Ointments
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Gels
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Balm
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Paste
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Shampoo
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Conditioner
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Lotion
+                  </p>
+                <p className="bg-[#7EA63F] text-white p-2 rounded-xl mb-4">Note: We offer customized solutions tailored to specific requirements</p>
+                </div>
                 <div className="block-image wow fadeInDown">
                   <img
                     src="assets/images/home-service/sv-2.jpg"

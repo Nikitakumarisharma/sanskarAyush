@@ -20,7 +20,19 @@ const serviceDetails = () => {
                 <p>
                 Paste-based ayurvedic formulations, such as Avaleha, Chyawanprash, and therapeutic resins, are potent immunity boosters that promote overall health, energy, and wellness. These traditional herbal blends are rich in natural ingredients like medicinal herbs, honey, ghee, and minerals, ensuring optimal absorption and effectiveness. Chyawanprash, a well-known formulation, strengthens immunity, enhances digestion, and revitalizes the body. Avaleha includes various herbal pastes used for respiratory, digestive, and rejuvenating benefits. Therapeutic resins provide healing properties for long-term well-being. These ayurvedic pastes are scientifically backed and trusted for their holistic approach to maintaining vitality, boosting immunity, and improving overall health naturally.
                 </p>
-                <p className="bg-[#7EA63F] text-white p-2 rounded-xl px-4">Note: We offer customized solutions tailored to specific requirements</p>
+                <div className="row gap-3 px-3">
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Avaleha
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Chyawanprash
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Therapeutic resins.
+                  </p>
+                <p className="bg-[#7EA63F] text-white p-2 rounded-xl mb-4">Note: We offer customized solutions tailored to specific requirements</p>
+                </div>
+                
                 <div className="block-image wow fadeInDown">
                   <img
                     src="assets/images/home-service/sv-3.jpg"

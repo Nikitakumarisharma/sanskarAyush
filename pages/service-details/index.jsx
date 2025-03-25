@@ -21,7 +21,25 @@ const serviceDetails = () => {
                 <p>
                 Liquid orals are pharmaceutical formulations designed for faster absorption, making them ideal for quick relief and effective drug delivery. These include syrups, suspensions, drops, and medicated candies, each catering to different patient needs. Syrups are sweetened liquid medications, often used for cough and cold remedies. Suspensions contain fine drug particles dispersed in liquid, ensuring even distribution. Drops provide precise dosing, commonly used for infants and elderly patients. Medicated candies offer a convenient and palatable way to administer drugs, especially for children. These liquid formulations enhance bioavailability, making them an essential part of modern medicine for efficient treatment.
                 </p>
-                <p className="bg-[#7EA63F] text-white p-2 rounded-xl px-4">Note: We offer customized solutions tailored to specific requirements</p>
+                <div className="row gap-3 px-3">
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Syrups
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Suspensions
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Drops
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Medicated{" "}
+                  </p>
+                  <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
+                    Candies
+                  </p>
+                <p className="bg-[#7EA63F] text-white p-2 rounded-xl  mb-4">Note: We offer customized solutions tailored to specific requirements</p>
+                </div>
+                
                 <div className="block-image wow fadeInDown">
                   <img
                     src="assets/images/home-service/sv-1.jpg"
