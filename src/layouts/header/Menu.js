@@ -25,7 +25,7 @@ const Menu = () => {
         </li> */}
         <li className="menu-item has-children style">
           <Link  href="/ourDivision">
-            Our Division
+            Our Divisions
           </Link>
         </li>
 
