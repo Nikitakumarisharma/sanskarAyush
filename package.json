@@ -13,6 +13,7 @@
     "@lottiefiles/dotlottie-react": "^0.13.2",
     "@next/font": "13.2.3",
     "@tailwindcss/postcss": "^4.0.7",
+    "firebase": "^11.5.0",
     "framer-motion": "^12.4.7",
     "isotope-layout": "^3.0.6",
     "next": "^14.2.23",

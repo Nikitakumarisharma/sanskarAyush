@@ -19,7 +19,22 @@ const serviceDetails = () => {
               <div className="service-info-wrapper pr-lg-40 wow fadeInDown">
                 <h2 className="title">Drops</h2>
                 <p>
-                Drops are specialized liquid formulations designed for targeted relief, ensuring quick absorption and effectiveness. Ayurvedic and pharmaceutical drops cater to various needs, including herbal, nasal, ear, and eye drops. Herbal drops provide natural healing benefits, boosting immunity and overall wellness. Nasal drops help relieve congestion, sinus issues, and allergies by clearing nasal passages. Ear drops treat infections, reduce inflammation, and improve ear hygiene. Eye drops soothe irritation, hydrate dry eyes, and enhance vision care. These formulations are crafted with precision, ensuring safe and effective relief while maintaining high-quality standards for improved health and well-being.
+                Dry eyes 
+Lubricate: Artificial tears replace natural moisture in the eyes, relieving burning and itching <br /> Heal: Artificial tears can help heal eye tissues
+Wash out irritants: Artificial tears can remove dust, hair, and other irritants
+Redness <br />Reduce blood flow: Vasoconstrictors reduce blood flow to surface capillaries, which can ease redness
+Treat inflammation: Some eye drops can treat inflammation
+Allergies
+Alleviate burning and stinging: Anti-allergic drops can help with the burning and stinging that is common with allergies <br /> Block histamine: Decongestant eye drops with antihistamines can prevent allergy symptoms 
+Prevent histamine release: Mast cell stabilizers prevent the body from releasing histamine 
+Other benefits 
+Reduce eye discharge
+Soften tissues around the eyes
+Rinse the eyes
+Flush out foreign bodies
+Promote surface healing
+Prevent further damage
+
                 </p>
                 <div className="row gap-3 px-3">
                   <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">

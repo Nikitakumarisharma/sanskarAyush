@@ -181,6 +181,150 @@ const ProjectGridIsotope = () => {
               </div>
             </div>
           </div>
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-2">
+            {/*====== Gallery Item ======*/}
+            <div className="single-project-item-three mb-30 wow fadeInUp">
+              <div className="project-img">
+                <img
+                  src="assets/images/gallery-sankar/gl-10.png"
+                  alt="Gallery Image"
+                />
+                
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-2">
+            {/*====== Gallery Item ======*/}
+            <div className="single-project-item-three mb-30 wow fadeInUp">
+              <div className="project-img">
+                <img
+                  src="assets/images/gallery-sankar/gl-11.png"
+                  alt="Gallery Image"
+                />
+                
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-2">
+            {/*====== Gallery Item ======*/}
+            <div className="single-project-item-three mb-30 wow fadeInUp">
+              <div className="project-img">
+                <img
+                  src="assets/images/gallery-sankar/gl-12.png"
+                  alt="Gallery Image"
+                />
+                
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-4">
+            {/*====== Gallery Item ======*/}
+            <div className="single-project-item-three mb-30 wow fadeInUp">
+              <div className="project-img">
+                <img
+                  src="assets/images/gallery-sankar/gl-13.png"
+                  alt="Gallery Image"
+                />
+                
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-1">
+            {/*====== Gallery Item ======*/}
+            <div className="single-project-item-three mb-30 wow fadeInUp">
+              <div className="project-img">
+                <img
+                  src="assets/images/gallery-sankar/gl22.png"
+                  alt="Gallery Image"
+                />
+                
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-4">
+            {/*====== Gallery Item ======*/}
+            <div className="single-project-item-three mb-30 wow fadeInUp">
+              <div className="project-img">
+                <img
+                  src="assets/images/gallery-sankar/gl23.png"
+                  alt="Gallery Image"
+                />
+                
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-4">
+            {/*====== Gallery Item ======*/}
+            <div className="single-project-item-three mb-30 wow fadeInUp">
+              <div className="project-img">
+                <img
+                  src="assets/images/gallery-sankar/gl24.png"
+                  alt="Gallery Image"
+                />
+                
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-2">
+            {/*====== Gallery Item ======*/}
+            <div className="single-project-item-three mb-30 wow fadeInUp">
+              <div className="project-img">
+                <img
+                  src="assets/images/gallery-sankar/gl25.png"
+                  alt="Gallery Image"
+                />
+                
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-4">
+            {/*====== Gallery Item ======*/}
+            <div className="single-project-item-three mb-30 wow fadeInUp">
+              <div className="project-img">
+                <img
+                  src="assets/images/gallery-sankar/gl26.png"
+                  alt="Gallery Image"
+                />
+                
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-4">
+            {/*====== Gallery Item ======*/}
+            <div className="single-project-item-three mb-30 wow fadeInUp">
+              <div className="project-img">
+                <img
+                  src="assets/images/gallery-sankar/gl27.png"
+                  alt="Gallery Image"
+                />
+                
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-1">
+            {/*====== Gallery Item ======*/}
+            <div className="single-project-item-three mb-30 wow fadeInUp">
+              <div className="project-img">
+                <img
+                  src="assets/images/gallery-sankar/gl-9.png"
+                  alt="Gallery Image"
+                />
+                
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-4">
+            {/*====== Gallery Item ======*/}
+            <div className="single-project-item-three mb-30 wow fadeInUp">
+              <div className="project-img">
+                <img
+                  src="assets/images/gallery-sankar/gl-7.png"
+                  alt="Gallery Image"
+                />
+                
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -45,6 +45,10 @@ const Header1 = () => {
                 {/*====== Top Right ======*/}
                 <div className="top-right float-lg-right">
                   <ul className="social-link">
+                  <li>
+                      
+                        <i>Follow us:</i>
+                    </li>
                     <li>
                       <a href="https://www.facebook.com/sanskarayushmedicare">
                         <i className="fab fa-facebook-f" />

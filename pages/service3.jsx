@@ -18,7 +18,15 @@ const serviceDetails = () => {
               <div className="service-info-wrapper pr-lg-40 wow fadeInDown">
                 <h2 className="title">Paste</h2>
                 <p>
-                Paste-based ayurvedic formulations, such as Avaleha, Chyawanprash, and therapeutic resins, are potent immunity boosters that promote overall health, energy, and wellness. These traditional herbal blends are rich in natural ingredients like medicinal herbs, honey, ghee, and minerals, ensuring optimal absorption and effectiveness. Chyawanprash, a well-known formulation, strengthens immunity, enhances digestion, and revitalizes the body. Avaleha includes various herbal pastes used for respiratory, digestive, and rejuvenating benefits. Therapeutic resins provide healing properties for long-term well-being. These ayurvedic pastes are scientifically backed and trusted for their holistic approach to maintaining vitality, boosting immunity, and improving overall health naturally.
+                Toothpaste, especially those designed for sensitive teeth, can help reduce sensitivity, strengthen enamel, and prevent cavities. Chyawanprash Benefits and Uses. <br />
+
+                Supports immune function. Rich in vitamin C and other nutrients, chyavanprash strengthens the body's natural defenses and promotes proper immune function. It supports the body's natural ability to produce hemoglobin and white blood cells.
+
+Promotes strength and energy. Thanks to its building and nourishing nature, chyavanprash lends strength, energy, and vitality to the entire body. It also helps to build toned and healthy muscle mass.
+
+Rejuvenates the tissues. Considered a rasayana , or rejuvenating formula, it tones and nourishes the tissues of the entire body, preserving youthfulness and promoting systemic health and well-being.
+
+Preserves youthfulness.By nourishing and protecting ojas , the essence of vitality, chyavanprash is said to support healthy aging and to promote beauty, intelligence, and memory.
                 </p>
                 <div className="row gap-3 px-3">
                   <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">

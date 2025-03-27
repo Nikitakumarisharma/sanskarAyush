@@ -64,9 +64,9 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                       Services
                     </Link>
                   </li>
-                  {/* <li className="menu-item ">
+                  <li className="menu-item ">
                     <Link href="/products">Products</Link>
-                  </li> */}
+                  </li>
                   <li className="menu-item ">
                     <Link href="/ourDivision">Our Divisions</Link>
                   </li>

@@ -28,6 +28,9 @@ const Menu = () => {
         <li className="menu-item has-children style">
           <Link href="/service-details">Services</Link>
         </li>
+        <li className="menu-item has-children style">
+                    <Link href="/products">Products</Link>
+                  </li>
 
         <li className="menu-item has-children style">
           <Link href="/ourDivision">Our Divisions</Link>

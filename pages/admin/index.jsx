@@ -1,55 +1,107 @@
-"use client";
-import { useState } from "react";
-import { useRouter } from "next/router";
+import { useState } from 'react';
+import { collection, addDoc } from 'firebase/firestore';
+import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
+import { db, storage } from '@/src/firebase/config'; // Make sure storage is exported from firebase.js
 
-const AdminLogin = () => {
-  const router = useRouter();
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [error, setError] = useState("");
+const AddProduct = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    category: '',
+    packing: ''
+  });
+  const [imageFile, setImageFile] = useState(null);
+  const [loading, setLoading] = useState(false);
 
-  // Static Admin Credentials
-  const ADMIN_EMAIL = "admin@example.com";
-  const ADMIN_PASSWORD = "admin123";
+  // Handle image file selection
+  const handleImageChange = (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      setImageFile(file);
+    }
+  };
 
-  const handleLogin = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    if (email === ADMIN_EMAIL && password === ADMIN_PASSWORD) {
-      router.push("/admin/dashboard"); // Redirect to Admin Dashboard
-    } else {
-      setError("Invalid email or password");
+    setLoading(true);
+
+    try {
+      let imageUrl = '';
+
+      // First upload the image if one is selected
+      if (imageFile) {
+        // Create a reference to the storage location
+        const storageRef = ref(storage, `products/${Date.now()}_${imageFile.name}`);
+        
+        // Upload the file
+        const snapshot = await uploadBytes(storageRef, imageFile);
+        
+        // Get the download URL
+        imageUrl = await getDownloadURL(snapshot.ref);
+        console.log('Image uploaded, URL:', imageUrl); // Debug log
+      }
+
+      // Then create the product document
+      const productData = {
+        name: formData.name,
+        category: formData.category,
+        packing: formData.packing,
+        image: imageUrl, // Add the image URL
+        createdAt: new Date().toISOString()
+      };
+
+      console.log('Saving product data:', productData); // Debug log
+
+      // Add to Firestore
+      const docRef = await addDoc(collection(db, 'products'), productData);
+      console.log('Document written with ID:', docRef.id); // Debug log
+
+      // Reset form
+      setFormData({
+        name: '',
+        category: '',
+        packing: ''
+      });
+      setImageFile(null);
+      
+      // Reset file input
+      if (document.getElementById('imageInput')) {
+        document.getElementById('imageInput').value = '';
+      }
+
+      alert('Product added successfully!');
+    } catch (error) {
+      console.error('Error adding product:', error);
+      alert('Error adding product: ' + error.message);
+    } finally {
+      setLoading(false);
     }
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="bg-white p-6 rounded-lg shadow-md w-96">
-        <h2 className="text-2xl font-bold mb-4 text-center">Admin Login</h2>
-        {error && <p className="text-red-500 text-sm">{error}</p>}
-        <form onSubmit={handleLogin} className="space-y-4">
-          <input
-            type="email"
-            placeholder="Email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            className="w-full p-2 border rounded"
-            required
-          />
-          <input
-            type="password"
-            placeholder="Password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            className="w-full p-2 border rounded"
-            required
-          />
-          <button type="submit" className="w-full bg-blue-500 text-white p-2 rounded">
-            Login
-          </button>
-        </form>
+    <form onSubmit={handleSubmit}>
+      {/* Other form fields */}
+      
+      <div className="mb-3">
+        <label className="form-label">Image</label>
+        <input
+          id="imageInput"
+          type="file"
+          className="form-control"
+          accept="image/*"
+          onChange={handleImageChange}
+          required
+        />
       </div>
-    </div>
+
+      <button 
+        type="submit" 
+        className="btn btn-primary"
+        disabled={loading}
+      >
+        {loading ? 'Adding Product...' : 'Add Product'}
+      </button>
+    </form>
   );
 };
 
-export default AdminLogin;
+export default AddProduct;

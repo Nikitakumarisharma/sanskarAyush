@@ -19,7 +19,7 @@ const serviceDetails = () => {
               <div className="service-info-wrapper pr-lg-40 wow fadeInDown">
                 <h2 className="title">Liquid orals</h2>
                 <p>
-                Liquid orals are pharmaceutical formulations designed for faster absorption, making them ideal for quick relief and effective drug delivery. These include syrups, suspensions, drops, and medicated candies, each catering to different patient needs. Syrups are sweetened liquid medications, often used for cough and cold remedies. Suspensions contain fine drug particles dispersed in liquid, ensuring even distribution. Drops provide precise dosing, commonly used for infants and elderly patients. Medicated candies offer a convenient and palatable way to administer drugs, especially for children. These liquid formulations enhance bioavailability, making them an essential part of modern medicine for efficient treatment.
+                Liquid dosage forms (for oral use) are the most suitable dosage form for patients who have difficulty taking tablets or  capsules, as might be the case with pediatric or geriatric patients.They are attractive in appearance and gives beneficial psychological effects.Drugs with bitter and unpleasant taste can be given in sweetened, coloured and flavoured vehicles.There is higher flexibility in dosing when compared to solid dosage forms like tablet and capsules. The dose of the drug substance can be easily and conveniently adjusted by measuring a different volume.If given orally, liquid dosage forms are rapidly available for absorption than tablets and capsules.
                 </p>
                 <div className="row gap-3 px-3">
                   <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
@@ -74,23 +74,23 @@ const serviceDetails = () => {
                 <h3>Manufacturing Process</h3>
                 <div className="row">
 
-                  <div className="col-md-6">
+                  <div className="col-md-12">
                     <div className="block-image wow fadeInLeft">
                       <img
                         src="assets/images/home-service/liquid-sv-1.png"
                         alt="service Image"
-                        className="h-48"
+                        // className="h-48"
                       />
                     </div>
                   </div>
-                  <div className="col-md-6">
+                  {/* <div className="col-md-6">
                     <div className="block-image wow fadeInRight">
                       <img
                         src="assets/images/home-service/liquid-sv-2.png"
                         alt="service Image"
                       />
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 <p>
                 The manufacturing process of Ayurvedic liquid orals involves selecting natural ingredients, extraction, blending, filtration, sterilization, quality testing, and packaging, ensuring purity, potency, and effective absorption for holistic health and wellness.
