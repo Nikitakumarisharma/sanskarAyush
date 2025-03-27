@@ -168,13 +168,13 @@ const AdminDashboard = () => {
               >
                 <option value="">Select Category</option>
                 <option value="SWADESHI">Swadeshi</option>
-                <option value="DABAR">Dabar</option>
+                <option value="DABUR">Dabur</option>
                 <option value="LEEFORD">Leeford</option>
                 <option value="MOONFORD">Moonford</option>
                 <option value="VISTRA">Vistra</option>
                 <option value="EVOSTAN">Evostan</option>
                 <option value="HERBOLAB">Herbolab</option>
-                <option value="NATUREALCARE">Naturealcare</option>
+                <option value="NATURALCARE">Naturalcare</option>
                 <option value="DIVISA">Divisa</option>
                 <option value="EMAMI">Emami</option>
                 <option value="OTHERS">Others</option>
