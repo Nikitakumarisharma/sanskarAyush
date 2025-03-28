@@ -19,21 +19,8 @@ const serviceDetails = () => {
               <div className="service-info-wrapper pr-lg-40 wow fadeInDown">
                 <h2 className="title">Drops</h2>
                 <p>
-                Dry eyes 
-Lubricate: Artificial tears replace natural moisture in the eyes, relieving burning and itching <br /> Heal: Artificial tears can help heal eye tissues
-Wash out irritants: Artificial tears can remove dust, hair, and other irritants
-Redness <br />Reduce blood flow: Vasoconstrictors reduce blood flow to surface capillaries, which can ease redness
-Treat inflammation: Some eye drops can treat inflammation
-Allergies
-Alleviate burning and stinging: Anti-allergic drops can help with the burning and stinging that is common with allergies <br /> Block histamine: Decongestant eye drops with antihistamines can prevent allergy symptoms 
-Prevent histamine release: Mast cell stabilizers prevent the body from releasing histamine 
-Other benefits 
-Reduce eye discharge
-Soften tissues around the eyes
-Rinse the eyes
-Flush out foreign bodies
-Promote surface healing
-Prevent further damage
+                Drops are liquid pharmaceutical formulations designed for precise administration, commonly used for eyes, ears, nose, or oral consumption. They contain active ingredients dissolved or suspended in a suitable liquid base, ensuring targeted and effective delivery. Eye drops treat infections, dryness, and allergies, while ear drops address infections and wax buildup. Nasal drops help relieve congestion, and oral drops provide accurate dosing for infants and patients with swallowing difficulties. Drops offer rapid absorption, localized action, and ease of use, making them essential in medical treatments. Proper storage and administration are crucial to maintaining their efficacy and preventing contamination.
+
 
                 </p>
                 <div className="row gap-3 px-3">
@@ -59,25 +46,26 @@ Prevent further damage
                   />
                 </div>
                 <h3>Benefits of Drops</h3>
-                <p>
-                Drops offer targeted relief with fast absorption, ease of application, and precise dosing. They effectively treat nasal congestion, ear infections, eye irritation, and provide herbal healing, ensuring quick relief and improved well-being.
-                </p>
+                
                 <ul className="check-style-one mb-60">
                   <li>
                     <i className="far fa-check" />
-                    14+Year of  Experience
+                    Dry eyes 
+Lubricate: Artificial tears replace natural moisture in the eyes, relieving burning and itching 
                   </li>
                   <li>
                     <i className="far fa-check" />
-                    NABL-certified lab
+                    Wash out irritants: Artificial tears can remove dust, hair, and other irritants
+Redness
                   </li>
                   <li>
                     <i className="far fa-check" />
-                    Timely Delivery
+                    Treat inflammation: Some eye drops can treat inflammation
+Allergies
                   </li>
                   <li>
                     <i className="far fa-check" />
-                    Cost-Effective Solutions
+                    Alleviate burning and stinging: Anti-allergic drops can help with the burning and stinging that is common with allergies
                   </li>
                 </ul>
 

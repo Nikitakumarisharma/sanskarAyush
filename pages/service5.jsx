@@ -47,25 +47,23 @@ const serviceDetails = () => {
                   />
                 </div>
                 <h3>Benefits of Solid Orals</h3>
-                <p>
-                Solid orals offer precise dosing, easy consumption, long shelf life, and effective absorption. They support daily health, boost immunity, enhance energy, and provide convenient solutions for nutritional and medicinal needs.
-                </p>
+                
                 <ul className="check-style-one mb-60">
                   <li>
                     <i className="far fa-check" />
-                    14+Year of  Experience
+                    Convenience & Compliance – OSD forms ensure easy administration without medical supervision, improving patient compliance, treatment effectiveness, and overall satisfaction.
                   </li>
                   <li>
                     <i className="far fa-check" />
-                    NABL-certified lab
+                    Accurate Dosing – OSD forms provide precise, uniform drug content, ensuring consistent dosage delivery and minimizing variations in medication administration.
                   </li>
                   <li>
                     <i className="far fa-check" />
-                    Timely Delivery
+                    Stability & Shelf Life – OSD forms offer longer shelf life, greater stability, and resistance to degradation, ensuring sustained potency and safety.
                   </li>
                   <li>
                     <i className="far fa-check" />
-                    Cost-Effective Solutions
+                    Development & Control – OSD forms enable cost-effective manufacturing, simpler clinical development, and enhanced quality control, ensuring efficient, scalable, and reliable pharmaceutical production.
                   </li>
                 </ul>
 

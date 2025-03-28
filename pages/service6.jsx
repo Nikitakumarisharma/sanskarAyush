@@ -57,25 +57,23 @@ const serviceDetails = () => {
                   />
                 </div>
                 <h3>Benefits of Juice/Ras</h3>
-                <p>
-                Herbal juices boost immunity, aid digestion, detoxify the body, improve skin health, regulate blood sugar, and enhance overall wellness. Made from natural ingredients, they provide essential nutrients and promote holistic Ayurvedic healing.
-                </p>
+                
                 <ul className="check-style-one mb-60">
-                  <li>
+                <li>
                     <i className="far fa-check" />
-                    14+Year of  Experience
+                    Liquid dosage forms (for oral use) are the most suitable dosage form for patients who have difficulty taking tablets or  capsules, as might be the case with pediatric or geriatric patients.
                   </li>
                   <li>
                     <i className="far fa-check" />
-                    NABL-certified lab
+                    They are attractive in appearance and gives beneficial psychological effects.Drugs with bitter and unpleasant taste can be given in sweetened, coloured and flavoured vehicles.
                   </li>
                   <li>
                     <i className="far fa-check" />
-                    Timely Delivery
+                    There is higher flexibility in dosing when compared to solid dosage forms like tablet and capsules.
                   </li>
                   <li>
                     <i className="far fa-check" />
-                    Cost-Effective Solutions
+                    The dose of the drug substance can be easily and conveniently adjusted by measuring a different volume.
                   </li>
                 </ul>
 
