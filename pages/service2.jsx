@@ -17,26 +17,9 @@ const serviceDetails = () => {
               <div className="service-info-wrapper pr-lg-40 wow fadeInDown">
                 <h2 className="title">Cosmetic Topicals</h2>
                 <p>
-                  Intense Hydration: Tropical ingredients like coconut oil, shea
-                  butter, and mango butter are known for their rich textures and
-                  ability to provide deep hydration, making skin feel soft and
-                  supple. <br /> Antioxidant Protection: Many tropical fruits and
-                  plants are rich in antioxidants, which help protect the skin
-                  from damage caused by free radicals and environmental
-                  stressors. <br /> Anti-Aging Properties: Some tropical ingredients,
-                  like certain plant extracts, have been shown to reduce the
-                  appearance of wrinkles and improve skin elasticity.
-                  <br /> Benefits
-                  of Cosmetics Soothing and Calming: Certain tropical extracts,
-                  like aloe vera, can help soothe irritated or inflamed skin.
-                  <br />
-                  Brightening and Even Skin Tone: Some tropical ingredients,
-                  like turmeric and certain fruit extracts, can help brighten
-                  the skin and reduce the appearance of dark spots. <br /> Natural
-                  Alternatives: Tropical ingredients can offer natural
-                  alternatives to synthetic ingredients in skincare products,
-                  which can be beneficial for those with sensitive skin or who
-                  prefer natural products.
+                Cosmetic topicals are externally applied formulations designed to enhance and maintain the appearance of skin, hair, and nails. These include creams, lotions, gels, serums, balms, and ointments, formulated with active ingredients, emollients, humectants, and preservatives. They provide hydration, nourishment, and protection against environmental damage, improving skin texture, elasticity, and tone. Common examples include moisturizers, sunscreens, anti-aging creams, acne treatments, and hair serums. Cosmetic topicals help in brightening, firming, and rejuvenating skin, while also addressing concerns like dryness, pigmentation, and fine lines. Regular use enhances overall skin health, promoting a youthful and radiant look while ensuring effective personal care.
+
+                   
                 </p>
                 <div className="row gap-3 px-3">
                   <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
@@ -76,29 +59,33 @@ const serviceDetails = () => {
                   />
                 </div>
                 <h3>Benefits of Cosmetic Topicals</h3>
-                <p>
-                  Cosmetic topicals provide hydration, nourishment, and
-                  protection for skin and hair. They enhance beauty, improve
-                  hygiene, treat skin conditions, prevent dryness, and promote
-                  overall wellness with easy application and effective
-                  absorption.
-                </p>
+               
                 <ul className="check-style-one mb-60">
                   <li>
                     <i className="far fa-check" />
-                    14+Year of Experience
+                    Intense Hydration: Tropical ingredients like coconut oil, shea
+                  butter, and mango butter are known for their rich textures and
+                  ability to provide deep hydration, making skin feel soft and
+                  supple.
                   </li>
                   <li>
                     <i className="far fa-check" />
-                    NABL-certified lab
+                    Antioxidant Protection: Many tropical fruits and
+                  plants are rich in antioxidants, which help protect the skin
+                  from damage caused by free radicals and environmental
+                  stressors.
                   </li>
                   <li>
                     <i className="far fa-check" />
-                    Timely Delivery
+                    Benefits
+                  of Cosmetics Soothing and Calming: Certain tropical extracts,
+                  like aloe vera, can help soothe irritated or inflamed skin
                   </li>
                   <li>
                     <i className="far fa-check" />
-                    Cost-Effective Solutions
+                    Anti-Aging Properties: Some tropical ingredients,
+                  like certain plant extracts, have been shown to reduce the
+                  appearance of wrinkles and improve skin elasticity.
                   </li>
                 </ul>
 

@@ -18,15 +18,8 @@ const serviceDetails = () => {
               <div className="service-info-wrapper pr-lg-40 wow fadeInDown">
                 <h2 className="title">Paste</h2>
                 <p>
-                Toothpaste, especially those designed for sensitive teeth, can help reduce sensitivity, strengthen enamel, and prevent cavities. Chyawanprash Benefits and Uses. <br />
+                Pastes are semi-solid formulations used for therapeutic and health benefits, often containing herbal or medicinal ingredients. They include therapeutic pastes, Chyawanprash, and Avaleha, each serving specific health purposes. **Therapeutic pastes** are used for topical or oral applications, delivering active ingredients for medicinal effects. **Chyawanprash** is an Ayurvedic herbal paste rich in antioxidants, boosting immunity, digestion, and overall health. **Avaleha**, another Ayurvedic preparation, combines herbs, honey, and ghee, traditionally used for respiratory health and rejuvenation. These pastes ensure easy consumption, prolonged retention of active compounds, and enhanced efficacy, making them essential in both modern and traditional healthcare systems.
 
-                Supports immune function. Rich in vitamin C and other nutrients, chyavanprash strengthens the body's natural defenses and promotes proper immune function. It supports the body's natural ability to produce hemoglobin and white blood cells.
-
-Promotes strength and energy. Thanks to its building and nourishing nature, chyavanprash lends strength, energy, and vitality to the entire body. It also helps to build toned and healthy muscle mass.
-
-Rejuvenates the tissues. Considered a rasayana , or rejuvenating formula, it tones and nourishes the tissues of the entire body, preserving youthfulness and promoting systemic health and well-being.
-
-Preserves youthfulness.By nourishing and protecting ojas , the essence of vitality, chyavanprash is said to support healthy aging and to promote beauty, intelligence, and memory.
                 </p>
                 <div className="row gap-3 px-3">
                   <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
@@ -49,25 +42,23 @@ Preserves youthfulness.By nourishing and protecting ojas , the essence of vitali
                   />
                 </div>
                 <h3>Benefits of Paste</h3>
-                <p>
-                Ayurvedic pastes like Chyawanprash and Avaleha boost immunity, enhance energy, improve digestion, support respiratory health, promote rejuvenation, and provide essential nutrients, ensuring overall wellness and vitality through natural and holistic healing.
-                </p>
+               
                 <ul className="check-style-one mb-60">
                   <li>
                     <i className="far fa-check" />
-                    14+Year of  Experience
+                    Toothpaste, especially those designed for sensitive teeth, can help reduce sensitivity, strengthen enamel, and prevent cavities. Chyawanprash Benefits and Uses.
                   </li>
                   <li>
                     <i className="far fa-check" />
-                    NABL-certified lab
+                    Supports immune function. Rich in vitamin C and other nutrients, chyavanprash strengthens the body's natural defenses and promotes proper immune function.
                   </li>
                   <li>
                     <i className="far fa-check" />
-                    Timely Delivery
+                    It supports the body's natural ability to produce hemoglobin and white blood cells.
                   </li>
                   <li>
                     <i className="far fa-check" />
-                    Cost-Effective Solutions
+                    It also helps to build toned and healthy muscle mass.
                   </li>
                 </ul>
 

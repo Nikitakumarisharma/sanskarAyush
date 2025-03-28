@@ -19,7 +19,8 @@ const serviceDetails = () => {
               <div className="service-info-wrapper pr-lg-40 wow fadeInDown">
                 <h2 className="title">Liquid orals</h2>
                 <p>
-                Liquid dosage forms (for oral use) are the most suitable dosage form for patients who have difficulty taking tablets or  capsules, as might be the case with pediatric or geriatric patients.They are attractive in appearance and gives beneficial psychological effects.Drugs with bitter and unpleasant taste can be given in sweetened, coloured and flavoured vehicles.There is higher flexibility in dosing when compared to solid dosage forms like tablet and capsules. The dose of the drug substance can be easily and conveniently adjusted by measuring a different volume.If given orally, liquid dosage forms are rapidly available for absorption than tablets and capsules.
+                Liquid orals are pharmaceutical preparations in liquid form, including solutions, suspensions, emulsions, and syrups, designed for oral intake. They provide ease of administration, especially for children and elderly patients, ensuring faster absorption and precise dosing. These formulations contain active ingredients, sweeteners, preservatives, stabilizers, and flavoring agents to enhance taste and stability. Common examples include cough syrups, antacids, and antibiotic suspensions. Liquid orals are widely used due to their effectiveness, patient compliance, and versatility in delivering various medicinal compounds.
+
                 </p>
                 <div className="row gap-3 px-3">
                   <p className="bg-[#7EA63F] text-white px-2 rounded-sm ">
@@ -48,25 +49,23 @@ const serviceDetails = () => {
                   />
                 </div>
                 <h3>Benefits of Liquid Orals</h3>
-                <p>
-                Liquid orals offer fast absorption, easy swallowing, precise dosing, and enhanced bioavailability. They are ideal for children and elderly patients, ensuring effective treatment with improved patient compliance and convenience.
-                </p>
+               
                 <ul className="check-style-one mb-60">
                   <li>
                     <i className="far fa-check" />
-                    14+Year of  Experience
+                    Liquid dosage forms (for oral use) are the most suitable dosage form for patients who have difficulty taking tablets or  capsules, as might be the case with pediatric or geriatric patients.
                   </li>
                   <li>
                     <i className="far fa-check" />
-                    NABL-certified lab
+                    They are attractive in appearance and gives beneficial psychological effects.Drugs with bitter and unpleasant taste can be given in sweetened, coloured and flavoured vehicles.
                   </li>
                   <li>
                     <i className="far fa-check" />
-                    Timely Delivery
+                    There is higher flexibility in dosing when compared to solid dosage forms like tablet and capsules.
                   </li>
                   <li>
                     <i className="far fa-check" />
-                    Cost-Effective Solutions
+                    The dose of the drug substance can be easily and conveniently adjusted by measuring a different volume.
                   </li>
                 </ul>
 

@@ -6,7 +6,7 @@ import Layout from "@/src/layouts/Layout";
 
 const clients = [
   {
-    name: "SVADESHI",
+    name: "SWADESHI",
     logo: "assets/images/clients/partner4.png",
     description:
       "Established in 1972, produces Ayurvedic products combining traditional wisdom with modern science, promoting natural wellness, and sustainable living through herbal remedies.",
