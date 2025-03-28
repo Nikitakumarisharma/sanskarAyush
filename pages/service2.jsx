@@ -12,7 +12,7 @@ const serviceDetails = () => {
       <section className="service-details-section pt-100">
         <div className="container">
           <div className="row">
-            <div className="col-xl-8 col-lg-7">
+            <div className="col-xl-8 col-lg-8 col-md-12">
               {/*====== service Details Wrapper ======*/}
               <div className="service-info-wrapper pr-lg-40 wow fadeInDown">
                 <h2 className="title">Cosmetic Topicals</h2>
@@ -117,6 +117,14 @@ const serviceDetails = () => {
                   inspection, and dispatch, ensuring safe, effective, and
                   high-quality skincare and wellness products.
                 </p>
+                <div className="col-md-12">
+                    <div className="block-image wow fadeInRight">
+                      <img
+                        src="assets/images/home-service/cosm-sv-3.png"
+                        alt="service Image"
+                      />
+                    </div>
+                  </div>
                 <div className="process-wrapper p-r z-1 wow fadeInUp">
                   <div className="shape line-shape">
                     <span>
@@ -183,16 +191,16 @@ const serviceDetails = () => {
                 </p>
               </div>
             </div>
-
-            <div className="col-xl-4 col-lg-5">
+            {/* right side */}
+            <div className="col-xl-4 col-lg-4 col-md-12">
               {/*====== Sidebar Widget Area ======*/}
-              <div className="sidebar-widget-area">
+              <div className="sidebar-widget-area position-sticky" style={{ top: "100px", height: "fit-content", maxHeight: "calc(100vh - 120px)", overflowY: "auto" }}>
                 <div className="sidebar-widget widget-service-nav gray-bg mb-30 wow fadeInUp">
                   <h4 className="widget-title">Services List</h4>
                   <ul>
                     <li>
                       <Link legacyBehavior href="/service-details">
-                        <a>
+                        <a className="flex justify-between items-center">
                           Liquid Orals
                           <i className="far fa-angle-double-right" />
                         </a>
@@ -200,7 +208,7 @@ const serviceDetails = () => {
                     </li>
                     <li>
                       <Link legacyBehavior href="/service2">
-                        <a>
+                        <a className="flex justify-between items-center">
                           Cosmetic Topicals
                           <i className="far fa-angle-double-right" />
                         </a>
@@ -208,7 +216,7 @@ const serviceDetails = () => {
                     </li>
                     <li>
                       <Link legacyBehavior href="/service3">
-                        <a>
+                        <a className="flex justify-between items-center">
                           Paste
                           <i className="far fa-angle-double-right" />
                         </a>
@@ -216,7 +224,7 @@ const serviceDetails = () => {
                     </li>
                     <li>
                       <Link legacyBehavior href="/service4">
-                        <a>
+                        <a className="flex justify-between items-center">
                           Drops
                           <i className="far fa-angle-double-right" />
                         </a>
@@ -224,7 +232,7 @@ const serviceDetails = () => {
                     </li>
                     <li>
                       <Link legacyBehavior href="/service5">
-                        <a>
+                        <a className="flex justify-between items-center">
                           Solid Orals
                           <i className="far fa-angle-double-right" />
                         </a>
@@ -232,7 +240,7 @@ const serviceDetails = () => {
                     </li>
                     <li>
                       <Link legacyBehavior href="/service6">
-                        <a>
+                        <a className="flex justify-between items-center">
                           Juices/Ras
                           <i className="far fa-angle-double-right" />
                         </a>
@@ -245,7 +253,7 @@ const serviceDetails = () => {
                     <h3 className="title">
                       Looking for the best third-party manufacturer
                     </h3>
-                    <p>You’re in right place</p>
+                    <p>You're in right place</p>
                     <Link legacyBehavior href="/contact">
                       <a
                         className="main-btn secondary-btn opacity-75"
@@ -257,7 +265,7 @@ const serviceDetails = () => {
                     <img
                       src="assets/images/home-service/service.png"
                       alt="Banner Image"
-                      className="w-96"
+                      className="w-full max-w-md mx-auto"
                     />
                   </div>
                 </div>

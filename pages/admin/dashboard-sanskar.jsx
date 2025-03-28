@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { collection, addDoc, getDocs, deleteDoc, doc, updateDoc, query, orderBy } from "firebase/firestore";
-import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
+// import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import { db, storage } from "@/src/firebase/config";
 
 const AdminDashboard = () => {
@@ -11,8 +11,8 @@ const AdminDashboard = () => {
     name: "",
     category: "",
     packing: "",
-    image: null,
-    imageUrl: ""
+    // image: null,
+    // imageUrl: ""
   });
   const [editingProduct, setEditingProduct] = useState(null);
 
@@ -37,41 +37,40 @@ const AdminDashboard = () => {
     }
   };
 
-  const handleImageUpload = async (file) => {
-    if (!file) return null;
-    try {
-      const storageRef = ref(storage, `products/${Date.now()}_${file.name}`);
-      const snapshot = await uploadBytes(storageRef, file);
-      const url = await getDownloadURL(snapshot.ref);
-      console.log("Image uploaded successfully:", url); // Debug log
-      return url;
-    } catch (error) {
-      console.error("Error uploading image:", error);
-      alert("Error uploading image: " + error.message);
-      return null;
-    }
-  };
+  // const handleImageUpload = async (file) => {
+  //   if (!file) return null;
+  //   try {
+  //     const storageRef = ref(storage, `products/${Date.now()}_${file.name}`);
+  //     const snapshot = await uploadBytes(storageRef, file);
+  //     const url = await getDownloadURL(snapshot.ref);
+  //     console.log("Image uploaded successfully:", url); // Debug log
+  //     return url;
+  //   } catch (error) {
+  //     console.error("Error uploading image:", error);
+  //     alert("Error uploading image: " + error.message);
+  //     return null;
+  //   }
+  // };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
 
     try {
-      let imageUrl = formData.imageUrl;
+      // let imageUrl = formData.imageUrl;
       
-      // Handle image upload if there's a new image
-      if (formData.image) {
-        imageUrl = await handleImageUpload(formData.image);
-        if (!imageUrl) {
-          throw new Error("Failed to upload image");
-        }
-      }
+      // if (formData.image) {
+      //   imageUrl = await handleImageUpload(formData.image);
+      //   if (!imageUrl) {
+      //     throw new Error("Failed to upload image");
+      //   }
+      // }
 
       const productData = {
         name: formData.name,
         category: formData.category,
         packing: formData.packing,
-        image: imageUrl,
+        // image: imageUrl,
         createdAt: new Date().toISOString()
       };
 
@@ -85,7 +84,7 @@ const AdminDashboard = () => {
         // Add new product
         const docRef = await addDoc(collection(db, "products"), productData);
         console.log("Document written with ID:", docRef.id); // Debug log
-        alert("Product added successfully!");
+        // alert("Product added successfully!");
       }
 
       // Reset form
@@ -93,8 +92,8 @@ const AdminDashboard = () => {
         name: "",
         category: "",
         packing: "",
-        image: null,
-        imageUrl: ""
+        // image: null,
+        // imageUrl: ""
       });
       setEditingProduct(null);
 
@@ -119,8 +118,8 @@ const AdminDashboard = () => {
       name: product.name,
       category: product.category,
       packing: product.packing,
-      image: null,
-      imageUrl: product.image
+      // image: null,
+      // imageUrl: product.image
     });
   };
 
@@ -192,7 +191,7 @@ const AdminDashboard = () => {
               />
             </div>
 
-            <div>
+            {/* <div>
               <label className="block text-sm font-medium text-gray-700">Image</label>
               <input
                 type="file"
@@ -208,7 +207,7 @@ const AdminDashboard = () => {
                   className="mt-2 h-20 w-20 object-cover rounded"
                 />
               )}
-            </div>
+            </div> */}
 
             <div className="flex gap-4">
               <button
@@ -227,8 +226,8 @@ const AdminDashboard = () => {
                       name: "",
                       category: "",
                       packing: "",
-                      image: null,
-                      imageUrl: ""
+                      // image: null,
+                      // imageUrl: ""
                     });
                   }}
                   className="bg-gray-500 text-white px-4 py-2 rounded-md hover:bg-gray-600"
@@ -249,7 +248,7 @@ const AdminDashboard = () => {
                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Name</th>
                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Category</th>
                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Packing</th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Image</th>
+                {/* <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Image</th> */}
                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Actions</th>
               </tr>
             </thead>
@@ -260,13 +259,13 @@ const AdminDashboard = () => {
                   <td className="px-6 py-4 whitespace-nowrap">{product.name}</td>
                   <td className="px-6 py-4 whitespace-nowrap">{product.category}</td>
                   <td className="px-6 py-4 whitespace-nowrap">{product.packing}</td>
-                  <td className="px-6 py-4 whitespace-nowrap">
+                  {/* <td className="px-6 py-4 whitespace-nowrap">
                     <img
                       src={product.image}
                       alt={product.name}
                       className="h-10 w-10 rounded-full object-cover"
                     />
-                  </td>
+                  </td> */}
                   <td className="px-6 py-4 whitespace-nowrap">
                     <button
                       onClick={() => handleEdit(product)}

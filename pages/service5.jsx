@@ -164,7 +164,7 @@ const serviceDetails = () => {
             </div>
           <div className="col-xl-4 col-lg-5">
               {/*====== Sidebar Widget Area ======*/}
-              <div className="sidebar-widget-area">
+              <div className="sidebar-widget-area position-sticky" style={{ top: "100px" }}>
               <div className="sidebar-widget widget-service-nav gray-bg mb-30 wow fadeInUp">
                   <h4 className="widget-title">Services List</h4>
                   <ul>
