@@ -145,7 +145,7 @@ const Products = () => {
                   filteredProducts.map((product, index) => (
                     <tr key={product.id} className="border-b hover:bg-gray-50">
                       <td className="px-2 sm:px-4 py-2 border">{index + 1}</td>
-                      <td className="px-2 sm:px-4 py-2 border">{product.name}</td>
+                      <td className="px-2 sm:px-4 py-2 border">{product.name.toUpperCase()}</td>
                       <td className="px-2 sm:px-4 py-2 border">{product.packing}</td>
                     </tr>
                   ))
