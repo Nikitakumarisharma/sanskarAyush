@@ -25,9 +25,27 @@ const Menu = () => {
           <Link href="/aboutUs">About</Link>
         </li>
 
-        <li className="menu-item has-children style">
-          <Link href="/service-details">Services</Link>
+        <li className="menu-item has-children">
+          <a href="#">
+            Services
+            <span className="dd-trigger">
+              <i className="far fa-angle-down" />
+            </span>
+          </a>
+          <ul className="sub-menu">
+            <li>
+              <Link legacyBehavior href="/service-details">
+                Our Service 
+              </Link>
+            </li>
+            <li>
+              <Link legacyBehavior href="/thirdParty">
+                Third Party manufacturer
+              </Link>
+            </li>
+          </ul>
         </li>
+
         <li className="menu-item has-children style">
                     <Link href="/products">Products</Link>
                   </li>

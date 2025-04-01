@@ -1,23 +1,11 @@
 import Layout from "@/src/layouts/Layout";
-import { FaDownload } from "react-icons/fa";
 import { Tab } from "react-bootstrap";
-
+import Certificate from "@/src/components/certificate";
 const ProductDetails = () => {
-  const handleDownload = () => {
-    const googleDriveUrl = "https://docs.google.com/document/d/1uyTl3vmHDYQ15lq6MCsxVX_NwKioBYcpG6etXBVkxRM/edit?usp=sharing";
-    window.open(googleDriveUrl, "_blank"); // Opens download in a new tab
-  };
+  
   return (
     <Layout>
-      <div className="fixed top-2/3 left-0 transform -translate-y-1/2 z-50">
-      <button
-        onClick={handleDownload}
-        className="bg-green-700 text-white px-4 py-2 rounded-r-lg shadow-lg  hover:bg-green-900 transition"
-      >
-        Certificate <span><FaDownload />
-        </span>
-      </button>
-    </div>
+     <Certificate />
       {/*====== Start Shop Details Section ======*/}
       <section className="shop-details-section  py-5">
         <div className="container">

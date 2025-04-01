@@ -4,6 +4,9 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
   const [toggle, setToggle] = useState(false);
 
   const [activeMenu, setActiveMenu] = useState(null);
+  const active = (value) => setActiveMenu(value === activeMenu ? null : value),
+    activeSubMenu = (value) =>
+      value == activeMenu ? { display: "block" } : { display: "none" };
 
   return (
     <Fragment>
@@ -59,10 +62,28 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                     </Link>
                   </li>
 
-                  <li className="menu-item">
-                    <Link legacyBehavior href="/service-details">
-                      Services
-                    </Link>
+                  <li className="menu-item has-children">
+                    <a href="#">
+                      Service
+                      <span
+                        className="dd-trigger"
+                        onClick={() => active("Service")}
+                      >
+                        <i className="far fa-angle-down" />
+                      </span>
+                    </a>
+                    <ul className="sub-menu" style={activeSubMenu("Service")}>
+                      <li>
+                        <Link legacyBehavior href="/service-details">
+                          Our Service
+                        </Link>
+                      </li>
+                      <li>
+                        <Link legacyBehavior href="/thirdParty">
+                        Third Party manufacturer
+                        </Link>
+                      </li>
+                    </ul>
                   </li>
                   <li className="menu-item ">
                     <Link href="/products">Products</Link>

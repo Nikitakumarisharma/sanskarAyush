@@ -7,8 +7,7 @@ import WhyChooseUs from "@/src/components/WhyChooseUs";
 import ChallengesHighlights from "@/src/components/Challenges";
 import Client from "@/src/components/Client";
 
-import { sliderProps } from "@/src/sliderProps";
-import Link from "next/link";
+
 
 const AboutUs = () => {
   return (

@@ -968,6 +968,8 @@ button {
 .header-navigation .main-menu ul > li .sub-menu li {
   display: block;
   margin: 0 10px 10px;
+  white-space: nowrap;
+  width: max-content;
 }
 .header-navigation .main-menu ul > li .sub-menu li:last-child {
   margin-bottom: 0;

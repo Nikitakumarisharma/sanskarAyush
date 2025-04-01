@@ -2,7 +2,7 @@ import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layouts/Layout";
 import { BsBuildingFillGear } from "react-icons/bs";
 import { TbTruckDelivery } from "react-icons/tb";
-
+import LeadForm from "@/src/components/LeadForm";
 
 import Link from "next/link";
 const serviceDetails = () => {
@@ -10,7 +10,7 @@ const serviceDetails = () => {
     <Layout>
       {/* <PageBanner pageName={"service Details"} /> */}
       {/*====== Start service Details section ======*/}
-      <section className="service-details-section pt-100">
+      <section className="service-details-section pt-50">
         <div className="container">
           <div className="row">
           <div className="col-xl-8 col-lg-7">
@@ -215,7 +215,8 @@ const serviceDetails = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="sidebar-widget widget-banner mb-30 wow fadeInUp">
+                <LeadForm></LeadForm>
+                <div className="sidebar-widget widget-banner mb-30 wow fadeInUp"style={{marginTop:"50px"}}>
                   <div className="banner-content text-white">
                     <h3 className="title">Looking for the best third-party manufacturer
 </h3>

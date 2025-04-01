@@ -2,6 +2,7 @@ import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layouts/Layout";
 import { BsBuildingFillGear } from "react-icons/bs";
 import { TbTruckDelivery } from "react-icons/tb";
+import LeadForm from "@/src/components/LeadForm";
 
 import Link from "next/link";
 const serviceDetails = () => {
@@ -9,7 +10,7 @@ const serviceDetails = () => {
     <Layout>
       {/* <PageBanner pageName={"service Details"} /> */}
       {/*====== Start service Details section ======*/}
-      <section className="service-details-section pt-100">
+      <section className="service-details-section pt-50">
         <div className="container">
           <div className="row">
             <div className="col-xl-8 col-lg-8 col-md-12">
@@ -192,9 +193,9 @@ const serviceDetails = () => {
               </div>
             </div>
             {/* right side */}
-            <div className="col-xl-4 col-lg-4 col-md-12">
+            <div className="col-xl-4 col-lg-4 col-md-12" >
               {/*====== Sidebar Widget Area ======*/}
-              <div className="sidebar-widget-area position-sticky" style={{ top: "100px", height: "fit-content", maxHeight: "calc(100vh - 120px)", overflowY: "auto" }}>
+              <div className="sidebar-widget-area position-sticky" style={{ top: "100px" }}>
                 <div className="sidebar-widget widget-service-nav gray-bg mb-30 wow fadeInUp">
                   <h4 className="widget-title">Services List</h4>
                   <ul>
@@ -248,7 +249,8 @@ const serviceDetails = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="sidebar-widget widget-banner mb-30 wow fadeInUp">
+                <LeadForm></LeadForm>
+                <div className="sidebar-widget widget-banner mb-30 wow fadeInUp" style={{marginTop:"50px"}}>
                   <div className="banner-content text-white">
                     <h3 className="title">
                       Looking for the best third-party manufacturer
