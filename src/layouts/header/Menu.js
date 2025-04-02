@@ -33,22 +33,55 @@ const Menu = () => {
             </span>
           </a>
           <ul className="sub-menu">
-            <li>
-              <Link legacyBehavior href="/service-details">
-                Our Service 
-              </Link>
+             {/* Our Services dropdown with 6 items */}
+             <li className="has-children">
+              <a href="#">Our Services</a>
+              <ul className="sub-menu">
+                <li>
+                  <Link legacyBehavior href="/service1">
+                    Service 1
+                  </Link>
+                </li>
+                <li>
+                  <Link legacyBehavior href="/service2">
+                    Service 2
+                  </Link>
+                </li>
+                <li>
+                  <Link legacyBehavior href="/service3">
+                    Service 3
+                  </Link>
+                </li>
+                <li>
+                  <Link legacyBehavior href="/service4">
+                    Service 4
+                  </Link>
+                </li>
+                <li>
+                  <Link legacyBehavior href="/service5">
+                    Service 5
+                  </Link>
+                </li>
+                <li>
+                  <Link legacyBehavior href="/service6">
+                    Service 6
+                  </Link>
+                </li>
+              </ul>
             </li>
             <li>
               <Link legacyBehavior href="/thirdParty">
                 Third Party manufacturer
               </Link>
             </li>
+
+           
           </ul>
         </li>
 
         <li className="menu-item has-children style">
-                    <Link href="/products">Products</Link>
-                  </li>
+          <Link href="/products">Products</Link>
+        </li>
 
         <li className="menu-item has-children style">
           <Link href="/ourDivision">Our Divisions</Link>
