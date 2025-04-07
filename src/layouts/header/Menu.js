@@ -39,32 +39,32 @@ const Menu = () => {
               <ul className="sub-menu">
                 <li>
                   <Link legacyBehavior href="/service-details">
-                    Service 1
+                  Liquid Orals
                   </Link>
                 </li>
                 <li>
                   <Link legacyBehavior href="/service2">
-                    Service 2
+                  Cosmetic Topicals
                   </Link>
                 </li>
                 <li>
                   <Link legacyBehavior href="/service3">
-                    Service 3
+                  Paste
                   </Link>
                 </li>
                 <li>
                   <Link legacyBehavior href="/service4">
-                    Service 4
+                  Drops
                   </Link>
                 </li>
                 <li>
                   <Link legacyBehavior href="/service5">
-                    Service 5
+                  Solid Orals
                   </Link>
                 </li>
                 <li>
                   <Link legacyBehavior href="/service6">
-                    Service 6
+                  Juices/Ras
                   </Link>
                 </li>
               </ul>
