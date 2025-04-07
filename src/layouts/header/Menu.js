@@ -38,7 +38,7 @@ const Menu = () => {
               <a href="#">Our Services</a>
               <ul className="sub-menu">
                 <li>
-                  <Link legacyBehavior href="/service1">
+                  <Link legacyBehavior href="/service-details">
                     Service 1
                   </Link>
                 </li>
